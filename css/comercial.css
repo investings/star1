@@ -1,0 +1,621 @@
+﻿/* COMERCIAL */
+[class*="antetitulo_comercial_"]{position:relative;z-index:5;/*height:26px;*/margin-bottom:0;/*line-height:26px;*/background:#535362;color:#fff;background-repeat: no-repeat; background-position: 8px center;}
+[class*="antetitulo_comercial_"] a,
+[class*="antetitulo_comercial_"] span{position:relative;width:100%;text-indent:0;padding-left:8px;font-weight:500;color:#fff;line-height: 1.95;}
+[class*="antetitulo_comercial_"] a:after,
+[class*="antetitulo_comercial_"] span:after {content:'';display:block;height:100%;width:40px;position:absolute;top:0;right:8px;pointer-events:none;background-repeat: no-repeat; background-position: right center;}
+/*[class*="antetitulo_comercial_"] + .foto{margin-top:-26px;}*/
+.antetitulo_comercial_generico ~ .articulo-titulo{font-family:'Benton Sans',sans-serif;font-weight:700;}
+.antetitulo_comercial_generico ~ .articulo-titulo a{color:rgba(83,83,98,.8);}
+.articulos_cierre [class*="antetitulo_comercial_"] a:after,
+.articulos_cierre [class*="antetitulo_comercial_"] span:after{display:none;}
+@media(min-width:600px){
+	.bloque_tematico .articulos_cuerpo .articulo:only-of-type [class*="antetitulo_comercial_"] {/*float:left;margin-right: 1.375rem;*/}
+}
+/* hasta los andares - interporc */
+.antetitulo_comercial_hasta-los-andares {background-color: #f58fb2; background-size: 170px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/hasta-los-andares.svg);}
+.antetitulo_comercial_hasta-los-andares a {text-indent: -9999px;}
+.antetitulo_comercial_hasta-los-andares a:after {width: 70px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/hasta-los-andares_patrocinador.svg); background-size: 100% auto;}
+/* te lo llevas fresco - carrefour */
+.antetitulo_comercial_te-lo-llevas-fresco {width: 100%;}
+.antetitulo_comercial_te-lo-llevas-fresco a {background-color: #4eb4c0; background-size: 160px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/te-lo-llevas-fresco.svg); background-position: 10px 6px;}
+.antetitulo_comercial_te-lo-llevas-fresco a {text-indent: -9999px;}
+.antetitulo_comercial_te-lo-llevas-fresco a:after {width: 90px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/te-lo-llevas-fresco_patrocinador.svg); background-size: 100% auto;}
+.antetitulo_comercial_te-lo-llevas-fresco a:before {content: "Un proyecto de"; z-index: 1;color: #fff;font-size: 10px;text-transform: uppercase;text-indent: 0;position: absolute;top: 3px;right: 106px; font-weight: 200;}
+.articulos_cierre .antetitulo_comercial_te-lo-llevas-fresco a:before { display: none; }
+.articulos_cierre .antetitulo_comercial_te-lo-llevas-fresco a:after,
+.articulos_cierre .antetitulo_comercial_te-lo-llevas-fresco a:before,
+.bloque_e .articulos:not(.articulos_apertura) .antetitulo_comercial_te-lo-llevas-fresco a:after,
+.bloque_e .articulos:not(.articulos_apertura) .antetitulo_comercial_te-lo-llevas-fresco a:before,
+.bloque_f .antetitulo_comercial_te-lo-llevas-fresco a:after,
+.bloque_f .antetitulo_comercial_te-lo-llevas-fresco a:before,
+.bloque_h .antetitulo_comercial_te-lo-llevas-fresco a:after,
+.bloque_h .antetitulo_comercial_te-lo-llevas-fresco a:before{display: none;}
+@media(max-width:599px){
+	.antetitulo_comercial_te-lo-llevas-fresco a:after,
+	.antetitulo_comercial_te-lo-llevas-fresco a:before {
+		display: none;
+	}
+}
+/* tentaciones son - estrella galicia */
+.antetitulo_comercial_tentaciones-son {background-color: #f00; background-size: 140px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/son-estrella-galicia.svg);}
+.antetitulo_comercial_tentaciones-son a {text-indent: -9999px;}
+.salida_articulo .antetitulo_comercial_tentaciones-son {background-color: #f00; background-size: 370px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/tentaciones-son_patrocinadorV2.svg); margin-bottom: 15px;}
+/* MWC Mobile World Congress */
+.antetitulo_comercial_mwc {background-color: #df3543; background-size: 218px auto; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/cintillo-mwc-patrocinio.png);}
+.antetitulo_comercial_mwc a {text-indent: -9999px;}
+.salida_articulo .antetitulo_comercial_mwc {background-color: #df3543; background-size: 277px auto; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/cintillo-mwc-patrocinio.png); margin-bottom: 15px;}
+
+/* espacio eco */
+.antetitulo_comercial_espacio-eco {position:relative; width: 100%;}
+.antetitulo_comercial_espacio-eco .enlace { padding-left:10px; background-color: #48943C; background-position: 10px 3px; background-size: 150px auto; font-size: 10px; text-transform: uppercase; color:#fff; font-weight: 500; line-height: 2.1;}
+.antetitulo_comercial_espacio-eco a:after {width: 90px; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/ecoembes.png); background-size: 56% auto;}
+.antetitulo_comercial_espacio-eco a:before {content: "Un proyecto de"; z-index: 1;color: #ffffff;font-size: 10px;text-transform: uppercase;text-indent: 0;position: absolute;top: 2px;right: 65px; font-weight: 400;}
+
+/* vehiculos electricos */
+.antetitulo_comercial_vehiculos-electricos {background-color: #2f6ea3; background-size: 160px auto; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/vehiculos-electricos.png);}
+.antetitulo_comercial_vehiculos-electricos a {text-indent: -9999px;}
+/* tlife guru - bbva */
+.antetitulo_comercial_tlife-guru {background-color: #094fa4; background-size: 85px auto; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/tlife-guru.png);}
+.antetitulo_comercial_tlife-guru a {text-indent: -9999px;}
+.antetitulo_comercial_tlife-guru a:after {width: 40px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/tlife-guru_patrocinador.svg); background-size: 100% auto;}
+/* entorno digital - telefónica */
+.antetitulo_comercial_entorno-digital {background-color: #003140; background-size: 114px auto; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/entorno-digital.png);}
+.antetitulo_comercial_entorno-digital a {text-indent: -9999px;}
+.antetitulo_comercial_entorno-digital a:after {width: 65px; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/entorno-digital_patrocinador.png); background-size: 100% auto; right: 0.375rem !important}
+/* Foro de La Paz Colombia */
+.antetitulo_comercial_foro-paz-colombia {background-color: #7FBEC4;background-size: 315px auto;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/foro-paz-colombia.svg);height: 48px; background-position: 7px 18px; z-index: 0; }
+.antetitulo_comercial_foro-paz-colombia a {text-indent: -9999px; height:100%; display:inline-block}
+.antetitulo_comercial_foro-paz-colombia a:after {right:0;width: 132px;background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/foro-paz-colombia_patrocinador.png);background-size: 100% auto;height:100%;}
+/* Startmeapp - huawei */
+.antetitulo_comercial_startmeapp { background: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/startmeapp_fondo.jpg) no-repeat; position:relative; background-position: 0 0; background-size: cover; height:26px;}
+.antetitulo_comercial_startmeapp .enlace {text-indent: -9999px; position: relative; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/startmeapp_blanco.svg) no-repeat; background-size: 115px auto;background-position: 10px 5px;}
+.antetitulo_comercial_startmeapp .enlace:before {width: 73px; height: 18px; background-repeat: no-repeat; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/logo-huawei-blanco.svg); content:""; z-index: 1; text-indent: 0; right: 8px; top: 3px; position: absolute;}
+/* en noticias canijillas */
+.articulos_cierre .antetitulo_comercial_startmeapp {height:21px;}
+.articulos_cierre .antetitulo_comercial_startmeapp .enlace {background-size: 90px auto;background-position: 3px 5px;}
+.articulos_cierre .antetitulo_comercial_startmeapp .enlace:before {top: 1px; right: -3px;}
+.bloque_tematico .articulos_cierre .antetitulo_comercial_startmeapp .enlace:before {display: none;}
+/* Estartapeando */
+.antetitulo_comercial_estartapeando { background: #fff; position:relative; height:26px;}
+.antetitulo_comercial_estartapeando .enlace { font-size: 12px; text-transform: uppercase; color:#000; font-weight: 900; }
+.antetitulo_comercial_estartapeando .enlace:before {width: 72px; height: 18px; background-repeat: no-repeat; background-size: 72px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/logo_vodafone.svg); content:""; z-index: 1; text-indent: 0; right: 8px; top: 3px; position: absolute;}
+/* Estartapeando en cierre */
+.articulos_cierre .antetitulo_comercial_estartapeando .enlace { font-size: 10px; line-height: 250%;}
+/* Espacio Origami */
+.antetitulo_comercial_origami { background: #e9eaec; position:relative; height:31px;}
+.antetitulo_comercial_origami .enlace { font-size: 18px; text-transform: uppercase; color:#000; font-weight: 100; }
+.antetitulo_comercial_origami .enlace:before {width: 65px; height: 15px; background-repeat: no-repeat; background-size: 65px auto; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/loewe.png); content:""; z-index: 1; text-indent: 0; right: 8px; top: 10px; position: absolute;}
+/* Espacio Origami en cierre */
+.articulos_cierre .antetitulo_comercial_origami .enlace { font-size: 15px; line-height: 230%;}
+/* Espacio Origami para icon */
+ .salida_portadilla .antetitulo_comercial_origami .enlace {background-color: transparent;text-align: left; line-height: 1.9em;}
+/* Espacio dia reciclaje */
+.antetitulo_comercial_reciclaje { background: #92c021; position:relative;}
+.antetitulo_comercial_reciclaje .enlace { font-size: 10px; text-transform: uppercase; color:#fff; font-weight: 500; line-height: 2.1; }
+.antetitulo_comercial_reciclaje .enlace:before {width: 164px; height: 15px; background-repeat: no-repeat; background-size: 164px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/coca-cola_mexico.svg); content:""; z-index: 1; text-indent: 0; right: 5px; top: 4px; position: absolute;}
+/* Espacio reciclaje en cierre */
+.articulos_cierre .antetitulo_comercial_reciclaje .enlace { font-size: 10px; }
+.articulos_cierre .antetitulo_comercial_reciclaje .enlace:before { display:none; }
+/* Hechos de energía */
+.antetitulo_comercial_energia {position:relative; width: 100%;}
+.antetitulo_comercial_energia .enlace { padding-left:10px; background-color: #fecb00; background-position: 10px 3px; background-size: 150px auto; font-size: 10px; text-transform: uppercase; color:#fff; font-weight: 500; line-height: 2.1; text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/bloque-hechos-mov.svg); }
+.antetitulo_comercial_energia a:after {width: 90px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/naturgy.svg); background-size: 83% auto;}
+.antetitulo_comercial_energia a:before {content: "Un proyecto de"; z-index: 1;color: #000;font-size: 10px;text-transform: uppercase;text-indent: 0;position: absolute;top: 2px;right: 95px; font-weight: 700;}
+.articulos_cierre .antetitulo_comercial_energia a:before { display: none; }
+@media(max-width:599px){
+	.antetitulo_comercial_energia a:after,
+	.antetitulo_comercial_energia a:before {display: none;}
+}
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_energia a:after,
+	.articulos_cierre .antetitulo_comercial_energia a:before,
+	.bloque_e .articulos:not(.articulos_apertura) .antetitulo_comercial_energia a:after,
+	.bloque_e .articulos:not(.articulos_apertura) .antetitulo_comercial_energia a:before,
+	.bloque_f .antetitulo_comercial_energia a:after,
+	.bloque_f .antetitulo_comercial_energia a:before,
+	.bloque_h .antetitulo_comercial_energia a:after,
+	.bloque_h .antetitulo_comercial_energia a:before {display: none;}
+}
+/* Correos On - correos */
+.antetitulo_comercial_correos {width: 100%;}
+.antetitulo_comercial_correos a {text-indent: -9999px; background-color: #ffd300; background-size: 70px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/correos-on.svg); background-position: 5px;}
+.antetitulo_comercial_correos a:after {width: 56px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/correos.svg); background-size: 100% auto; background-position: right 2px;}
+.antetitulo_comercial_correos a:before {content: "Un proyecto de"; z-index: 1;color: #003B74;font-size: 10px;text-transform: uppercase;text-indent: 0;position: absolute;top: 3px;right: 72px; font-weight: 500;}
+.articulos_cierre .antetitulo_comercial_correos a:after { display: block; }
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_correos a:after,
+	.articulos_cierre .antetitulo_comercial_correos a:before{display: none;}
+}
+@media(max-width: 599px){
+	.antetitulo_comercial_foro-paz-colombia { background-size: 280px auto;}
+	.antetitulo_comercial_foro-paz-colombia a:after{display: none;}
+}
+.salida_articulo .articulo .antetitulo_comercial_foro-paz-colombia { margin-bottom: 15px; }
+.antetitulo_comercial_foro-paz-colombia + .foto{ margin-top:0px; }
+/* Mahoudrid */
+.antetitulo_comercial_mahoudrid a,
+.antetitulo_comercial_mahoudrid span{background: #bb131f url(../../../iconos/v2.x/v2.0/cintillos_comerciales/mahoudrid5b31.png?=123) 4px center no-repeat;text-indent:-9999px;background-size:auto 14px; }
+.antetitulo_comercial_mahoudrid a:after,
+.antetitulo_comercial_mahoudrid span:after{right: 0;top: 0;background: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/mahoudrid_patrocinador.png) center no-repeat;background-size:contain;width: 21px;height: 21px;}
+/* Regalos de Navidad */
+.antetitulo_comercial_regalos-de-navidad a,
+.antetitulo_comercial_regalos-de-navidad span{background: #000 url(../../../iconos/v2.x/v2.0/cintillos_comerciales/regalos-de-navidad5b31.png?=123) 4px center no-repeat;text-indent:-9999px;background-size:auto 13px; }
+.antetitulo_comercial_regalos-de-navidad a {text-indent: -9999px;}
+.antetitulo_comercial_regalos-de-navidad a:after {width: 90px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/regalos-de-navidad_patrocinador.svg); background-size: 100% auto;}
+.articulos_cierre .antetitulo_comercial_regalos-de-navidad a:after,
+.articulos_cierre .antetitulo_comercial_regalos-de-navidad span:after{display:block;}
+.articulos_cierre .antetitulo_comercial_regalos-de-navidad a,
+.articulos_cierre .antetitulo_comercial_regalos-de-navidad span{background-size: 50% auto;}
+/* Lonely Planet El Viajero */
+/* en portada */
+.antetitulo_comercial_lonely-planet {width: 4.375rem; height: 1.750rem; margin-bottom: 0.938rem; background-color: transparent;}
+.antetitulo_comercial_lonely-planet a,
+.antetitulo_comercial_lonely-planet span {display: inline-block; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/lonely-planet-azul.svg); background-size: 3.125rem auto; background-color: #fff; background-position: center center; text-indent: -9999px; height: 100%; padding: 0; width: auto;}
+.antetitulo_comercial_lonely-planet + figure {margin-top: -2.688rem;}
+.bloque_tematico .articulos_cuerpo .articulo:only-of-type .antetitulo_comercial_lonely-planet {float: left; margin-right: 1.375rem; width: calc(50% - .688rem);}
+.bloque_tematico .articulos_cuerpo .articulo:only-of-type .antetitulo_comercial_lonely-planet + h2 {clear: left;}
+.bloque--publi .articulos_cuerpo .articulo:only-of-type .antetitulo_comercial_lonely-planet {float: none;}
+@media (min-width: 600px) {
+	[class^="salida_"]:not(.salida_articulo) .articulos_cierre .articulo:nth-child(1):nth-last-child(4) .antetitulo_comercial_lonely-planet + figure,
+	[class^="salida_"]:not(.salida_articulo) .articulos_cierre .articulo:nth-child(1):nth-last-child(4) ~ .articulo .antetitulo_comercial_lonely-planet + figure {margin-top: -2.688rem;}
+}
+@media (max-width: 599px) {
+	.bloque_tematico .articulos_cuerpo .articulo:only-of-type .antetitulo_comercial_lonely-planet {float: none;}
+	.bloque_tematico .articulos_cierre .articulo__interior .antetitulo_comercial_lonely-planet {float: left; margin-right: .688rem; width: calc(45% - 0.688rem)!important; margin-bottom: 0;}
+	.bloque_tematico .articulos_cierre .articulo__interior .antetitulo_comercial_lonely-planet + figure {clear: left; margin-top: -1.750rem;}
+	.bloque_tematico .articulos_cierre .articulo__interior .antetitulo_comercial_lonely-planet + h2 {clear: left;}
+	.bloque_tematico .articulos_cuerpo .articulo__interior .antetitulo_comercial_lonely-planet {display: inline-block;}
+	.bloque_tematico .articulos_cuerpo .articulo__interior .antetitulo_comercial_lonely-planet + figure.foto_w360 {margin-top: 0;}
+	.bloque_tematico .articulos_cuerpo .articulo__interior .antetitulo_comercial_lonely-planet + h2 {clear: left;}
+}
+/* en portada, bloque revista */
+.bloque_revista .antetitulo_comercial_lonely-planet {position: static; background-color: transparent; margin: -0.938rem 0 0.938rem; width: 4.063rem; height: 2.188rem;}
+.bloque_revista .antetitulo_comercial_lonely-planet a,
+.bloque_revista .antetitulo_comercial_lonely-planet span {background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/lonely-planet.svg);background-size: 4.063rem auto; background-color: transparent; background-position: left center; width: 4.063rem; text-align: left; padding: 0;}
+.bloque_revista .articulo-texto--posicion_2 .antetitulo_comercial_lonely-planet,
+.bloque_revista .articulo-texto--posicion_3 .antetitulo_comercial_lonely-planet,
+.bloque_revista .articulo-texto--posicion_4 .antetitulo_comercial_lonely-planet,
+.bloque_revista .articulo-texto--posicion_5 .antetitulo_comercial_lonely-planet {width: auto;}
+.bloque_revista .articulo-texto--posicion_3 .antetitulo_comercial_lonely-planet,
+.bloque_revista .articulo-texto--posicion_4 .antetitulo_comercial_lonely-planet {text-align: right;}
+@media (max-width: 599px) {
+	.bloque_revista .antetitulo_comercial_lonely-planet {margin-top: -2.875rem;}
+	.bloque_revista .antetitulo_comercial_lonely-planet a,
+	.bloque_revista .antetitulo_comercial_lonely-planet span {background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/lonely-planet-azul.svg); background-color: #fff; background-position: center center; width: 5.188rem;}
+}
+@media (min-width: 600px) {
+	.bloque_tematico .articulos_cuerpo .articulo:only-of-type .antetitulo_comercial_lonely-planet + h2 {clear: left;}
+}
+/* en noticia */
+.salida_articulo .antetitulo_comercial_lonely-planet {position: relative; width: auto; border-top: 0.063rem solid #297CBB; background-color: transparent; margin: 0.938rem 0 0;}
+.salida_articulo .articulo-encabezado .antetitulo_comercial_lonely-planet .enlace,
+.salida_articulo .articulo-encabezado .antetitulo_comercial_lonely-planet .sin_enlace {background-image: url(http://ep01.epimg.net/estaticos/2017/01/lonely-planet/friso/img/logo_lonelyplanet.svg); background-size: 5.625rem auto; background-color: #fff; background-repeat: no-repeat; position: absolute; left: 50%; top: 0; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); width: 8.125rem; height: 2.750rem; padding: 0;}
+/* Tentaciones LG */
+.antetitulo_comercial_tentaciones-lg {position:relative; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/tentaciones-lg-nombre.png); background-position: 10px center; background-color: #BD0738; width: 100%; }
+.antetitulo_comercial_tentaciones-lg a, .antetitulo_comercial_tentaciones-lg span {text-indent: -9999px; padding-left: 0}
+.antetitulo_comercial_tentaciones-lg a:after, .antetitulo_comercial_tentaciones-lg span:after{content:"";background:url(../../../iconos/v2.x/v2.0/cintillos_comerciales/tentaciones-lg-patro.png) no-repeat center;position:absolute;right:0;top: 0;display: inline-block;width:159px;height:21px}
+/* Tentaciones LG SIN LG */
+.antetitulo_comercial_tentaciones-lg-sin {position:relative; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/tentaciones-lg-nombre.png); background-position: 10px center; background-color: #BD0738; width: 100%; }
+.antetitulo_comercial_tentaciones-lg-sin a, .antetitulo_comercial_tentaciones-lg-sin span {text-indent: -9999px; padding-left: 0}
+.antetitulo_comercial_tentaciones-lg-sin a:after, .antetitulo_comercial_tentaciones-lg-sin span:after{content:"";background:url(../../../iconos/v2.x/v2.0/cintillos_comerciales/tentaciones-lg-patro-sin.png) no-repeat center;position:absolute;right:0;top: 0;display: inline-block;width:159px;height:21px}
+/*Tentaciones LG para portal Tentaciones*/
+.antetitulo_comercial_tentaciones-lg-tentaciones {position:relative; background-color: #BD0738; width: 100%; }
+.antetitulo_comercial_tentaciones-lg-tentaciones a, .antetitulo_comercial_tentaciones-lg-tentaciones span {text-indent: -9999px; padding-left: 0; background:url(../../../iconos/v2.x/v2.0/cintillos_comerciales/tentaciones-lg-patro.png) no-repeat center right;}
+/*Tentaciones LG para portal Tentaciones SIN LG*/
+.antetitulo_comercial_tentaciones-lg-tentaciones-sin {position:relative; background-color: #BD0738; width: 100%; }
+.antetitulo_comercial_tentaciones-lg-tentaciones-sin a, .antetitulo_comercial_tentaciones-lg-tentaciones span {text-indent: -9999px; padding-left: 0; background:url(../../../iconos/v2.x/v2.0/cintillos_comerciales/tentaciones-lg-patro-sin.png) no-repeat center right;}
+/* La vuelta eléctrica a España - Endesa  */
+.antetitulo_comercial_vuelta-endesa {position:relative; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/vuelta-endesa-nombre.svg); background-position: 6px center; background-color: #5392c7; width: 100%;}
+.antetitulo_comercial_vuelta-endesa a, .antetitulo_comercial_vuelta-endesa span {text-indent: -9999px; padding-left: 0}
+.antetitulo_comercial_vuelta-endesa a:before, .antetitulo_comercial_vuelta-endesa span:before{content: "UN PROYECTO DE"; font-size: 8px; font-weight: 300; color: #fff; position: absolute; z-index: 1; display: block; text-indent: 0; top: 4px; right: 71px; text-transform: uppercase; letter-spacing: 0.5px;}
+.antetitulo_comercial_vuelta-endesa a:after, .antetitulo_comercial_vuelta-endesa span:after{content:"";background:url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/vuelta-endesa-patro.svg) no-repeat center;position:absolute;right:5px;top:3px;display:inline-block;width:61px;height:13px;}
+@media(max-width:599px){
+	.antetitulo_comercial_vuelta-endesa a:after,
+	.antetitulo_comercial_vuelta-endesa a:before {display: none;}
+}
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_vuelta-endesa a:after,
+	.articulos_cierre .antetitulo_comercial_vuelta-endesa a:before,
+	.bloque_e .articulos:not(.articulos_apertura) .antetitulo_comercial_vuelta-endesa a:after,
+	.bloque_e .articulos:not(.articulos_apertura) .antetitulo_comercial_vuelta-endesa a:before,
+	.bloque_f .antetitulo_comercial_vuelta-endesa a:after,
+	.bloque_f .antetitulo_comercial_vuelta-endesa a:before,
+	.bloque_h .antetitulo_comercial_vuelta-endesa a:after,
+	.bloque_h .antetitulo_comercial_vuelta-endesa a:before {display: none;}
+}
+/* Ecoverdad o Ecomentira - Ecovidrio  */
+.antetitulo_comercial_ecovidrio {position:relative; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/ecoverdadoecomentira-nombre.png); background-position: 6px center; background-color: #00B67E; width: 100%; }
+.antetitulo_comercial_ecovidrio a, .antetitulo_comercial_ecovidrio span {text-indent: -9999px; padding-left: 0}
+/* tentaciones son - festivales mediterraneo en vivo*/
+.antetitulo_comercial_tentaciones-mediterraneo {position:relative; background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/festivales-mediterraneo-vivo.png); background-position: 0 center; background-color: #f04d4c; width: 100%;}
+.antetitulo_comercial_tentaciones-mediterraneo a, .antetitulo_comercial_tentaciones-mediterraneo span {text-indent: -9999px; padding-left: 0}
+/* #MIPROGRESO */
+.antetitulo_comercial_miprogreso {background-color: #FF171E; background-size: 100px auto; background-image: url(http://ep01.epimg.net/estaticos/2017/06/yoprogreso/img/agrupador-nombre2.svg);}
+.antetitulo_comercial_miprogreso a {text-indent: -9999px;}
+/* Pymes-al-dia correos */
+.antetitulo_comercial_pymesaldia a,
+.antetitulo_comercial_pymesaldia span{background: #063977 url(http://ep01.epimg.net/estaticos/2017/07/pymes-al-dia/img/agrupador-nombre.svg) 4px center no-repeat; text-indent:-9999px;background-size:auto 13px; }
+.antetitulo_comercial_pymesaldia a:after,
+.antetitulo_comercial_pymesaldia span:after{right: 0;top: 0;background: url(../../../estaticos/2017/07/pymes-al-dia/img/correos-patrocinador.png) center no-repeat;background-size:contain;width: 112px;height: 22px; content: '';}
+.articulos_cierre .antetitulo_comercial_pymesaldia a:after,
+.articulos_cierre .antetitulo_comercial_pymesaldia span:after{display: block;}
+
+
+/* Los otros partidos - mahou */
+.antetitulo_comercial_los-otros-partidos {background-color: #c8102e; background-size: 130px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/los-otros-partidos.svg);}
+.antetitulo_comercial_los-otros-partidos a {text-indent: -9999px;}
+/* Día del agua CocaCola América */
+.antetitulo_comercial_diadelagua2018{background: #3f738b url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/antetitulo_comercial_diadelagua-cocacola-2018.svg) right center no-repeat; background-size:auto 14px;}
+.antetitulo_comercial_diadelagua2018 a{background: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/antetitulo_comercial_diadelagua-2018.png) 3px center no-repeat; background-size:auto 14px; text-indent: -9999px; }
+@media(min-width: 1000px){
+	.articulos_cierre .antetitulo_comercial_diadelagua2018{ background-size:auto 11px;}
+	.articulos_cierre .antetitulo_comercial_diadelagua2018 a{ background-size:auto 11px; }
+}
+/* El Jalisco del futuro */
+.antetitulo_comercial_jalisco-rmc{background-image:  url(http://ep01.epimg.net/estaticos/2018/03/el-jalisco-del-futuro/img/agrupador-patrocinador.svg) ,url(../../../iconos/v2.x/v2.0/cintillos_comerciales/jalisco-rmc-fondo.png);background-size: auto 16px, cover;background-position: right center, center;background-repeat: no-repeat;}
+.antetitulo_comercial_jalisco-rmc a{background: url(http://ep01.epimg.net/estaticos/2018/03/el-jalisco-del-futuro/img/agrupador-nombre.svg) 3px center no-repeat; background-size:auto 9px; text-indent: -9999px;}
+/* Conversaciones Loewe */
+.antetitulo_comercial_conversaciones-loewe span {background:#fff; border: solid 1px #000; color: #000; font-size: 12px; font-weight: normal; content:""; position: relative; text-indent: -9999px; display: block;}
+.antetitulo_comercial_conversaciones-loewe span:before {content: "CASA LOEWE "; position: absolute; text-indent: 0px; top: 1px; display: block;}
+.antetitulo_comercial_conversaciones-loewe span:after {content: "CONVERSATIONS"; font-weight: 700; position: absolute; left:88px; display: block; text-indent: 0;}
+/*RECONOZCAMOS LO BUENO AMSTEL  */
+.antetitulo_comercial_reconozcamos-lo-bueno {background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/reconozcamos-lo-bueno_cintillo.svg);background-size:11rem auto;background-color: #D2091D; }
+.antetitulo_comercial_reconozcamos-lo-bueno span,.antetitulo_comercial_reconozcamos-lo-bueno a {text-indent: -9999px;display: block;}
+.antetitulo_comercial_reconozcamos-lo-bueno:before {content: 'UN PROYECTO DE'; font-weight: bold; font-size: 0.5rem; position: absolute; right: 0.525rem; top: 0.3rem; padding-right: 3.6rem; background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/logo-amstel.svg') no-repeat center right; background-size: auto auto; background-size: auto 100%; height: 50%; line-height: 0.8rem; color: #fff; }
+/* Hankook */
+.antetitulo_comercial_siente-la-tecnologia {background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/bloque-sientelatecnologia.svg)/*, linear-gradient(to right, #c7c7c7, #ffffff)*/;background-size: 9rem auto;background-color: #E2E2E2; }
+.antetitulo_comercial_siente-la-tecnologia span,.antetitulo_comercial_siente-la-tecnologia a {text-indent: -9999px;display: block;}
+.antetitulo_comercial_siente-la-tecnologia:before {content: 'UN PROYECTO DE'; font-weight: bold; font-size: 0.5rem; position: absolute; right: 0.525rem; top: 0.185rem; padding-right: 4.4rem; background: url('../../../iconos/v2.x/v2.0/cintillos_comerciales/logo-hankook.png') no-repeat center right; background-size: auto auto; background-size: auto 100%; height: 59%; line-height: 1rem; color: #000; }
+/*TISSOT TOUR DE FRANCIA*/
+.antetitulo_comercial_tour-de-francia {background: #556ba7;padding-left: 5px;padding-right: 5px;box-sizing: border-box;position:relative;}
+.antetitulo_comercial_tour-de-francia:before{content:"tour de francia";position:absolute;text-transform: uppercase;font-size: 9px;font-family:"Benton Sans",sans-serif;font-weight: normal; left:5px;top:50%;transform: translateY(-50%);}
+.antetitulo_comercial_tour-de-francia a{background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/logo-tissot.svg) no-repeat right center;background-size: auto 10px;text-indent: -9999px;margin: 0;padding: 0;box-sizing: border-box;}
+.antetitulo_comercial_tour-de-francia a:before{content:"";width: 65px;height:6px;background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/colaboracion.svg) no-repeat center center;background-size: auto 100%; position: absolute;top:6px;right:53px; }
+/* es LaLiga */
+.antetitulo_comercial_eslaliga {background-color: #25282a; background-size: 4.1875rem auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/eslaliga-b.svg);}
+.antetitulo_comercial_eslaliga span,.antetitulo_comercial_eslaliga a {text-indent: -9999px;display: block;}
+.antetitulo_comercial_eslaliga:before {content: 'UN PROYECTO DE'; font-weight: normal; font-size: 0.53rem; position: absolute; right: 0.525rem; top: 0.185rem; padding-right: 3.55rem; background: url('../../../iconos/v2.x/v2.0/cintillos_comerciales/eslaliga-laliga.png') no-repeat center right; background-size: auto auto; background-size: auto 100%; height: 75%; line-height: 1rem; color: #c0c0c0; }
+/* es LaLiga patrocinado */
+.antetitulo_comercial_eslaliga_patrocinado {background-color: #25282a; background-size: 4.1875rem auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/eslaliga-b.svg);}
+.antetitulo_comercial_eslaliga_patrocinado span,.antetitulo_comercial_eslaliga_patrocinado a {text-indent: -9999px;display: block;}
+.antetitulo_comercial_eslaliga_patrocinado:before {content: 'PATROCINADO POR'; font-weight: normal; font-size: 0.53rem; position: absolute; right: 0.525rem; top: 0.185rem; padding-right: 3.55rem; background: url('../../../iconos/v2.x/v2.0/cintillos_comerciales/eslaliga-laliga.png') no-repeat center right; background-size: auto auto; background-size: auto 100%; height: 75%; line-height: 1rem; color: #c0c0c0; }
+/* Informa */
+.antetitulo_comercial_correos {width: 100%;}
+.antetitulo_comercial_correos a {text-indent: -9999px; background-color: #ffd300; background-size: 70px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/correos-on.svg); background-position: 5px;}
+.antetitulo_comercial_correos a:after {width: 56px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/correos.svg); background-size: 100% auto; background-position: right 2px;}
+.antetitulo_comercial_correos a:before {content: "Un proyecto de"; z-index: 1;color: #003B74;font-size: 10px;text-transform: uppercase;text-indent: 0;position: absolute;top: 3px;right: 72px; font-weight: 500;}
+.articulos_cierre .antetitulo_comercial_correos a:after { display: block; }
+.antetitulo_comercial_informa {width: 100%}
+.antetitulo_comercial_informa a {text-indent: -9999px;display: block; background-color: #eee; background-size: 6rem auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/bloque-informa-mov.svg); background-position: 5px;}
+.antetitulo_comercial_informa a:after {position: absolute; right: 0.525rem; top: 0.185rem; padding-right: 3.8rem; background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/logo-informa.svg') no-repeat center right; background-size: auto auto; background-size: auto 100%; height: 70%; display: block;}
+.antetitulo_comercial_informa a:before {content: 'UN PROYECTO DE'; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px; top: 0.185rem; color: #000;}
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_informa a:after,
+	.articulos_cierre .antetitulo_comercial_informa a:before{display: none;}
+}
+@media(max-width: 599px){
+	.articulos_cierre .antetitulo_comercial_informa a:after{display: block;}
+}
+/* Paradores */
+.antetitulo_comercial_paradores {background-color: #25282a; background-size: 4.1875rem auto;}
+/* .antetitulo_comercial_paradores span,.antetitulo_comercial_paradores a {text-indent: -9999px;display: block;} */
+.antetitulo_comercial_paradores:before {content: 'UN PROYECTO DE'; font-weight: normal; font-size: 0.53rem; position: absolute; right: 0.525rem; top: 0.185rem; padding-right: 3.55rem; background: url('../../../iconos/v2.x/v2.0/cintillos_comerciales/paradores-paradores.png') no-repeat center right; background-size: auto auto; background-size: auto 100%; height: 75%; line-height: 1rem; color: #c0c0c0; }
+
+/* Ecoreto */
+.antetitulo_comercial_ecoreto {background-color: #03B282; background-size: 4.1875rem auto;}
+/* .antetitulo_comercial_ecoreto span,.antetitulo_comercial_ecoreto a {text-indent: -9999px;display: block;} */
+.antetitulo_comercial_ecoreto:before {content: 'CONTENIDO PATROCINADO'; font-weight: normal; font-size: 0.53rem; position: absolute; right: 0.525rem; top: 0.185rem; padding-right: 3.55rem; background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/ecovidrio.svg') no-repeat center right; background-size: auto auto; background-size: auto 100%; height: 75%; line-height: 1rem; color: #ffffff; }
+/* Ecoreto */
+
+/* antetitulo Pienso Yoigo */
+.antetitulo_comercial_pienso .enlace,
+.antetitulo_comercial_pienso .sin_enlace{background-color: #D5D5D5;text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/hastagpienso.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/pienso-luego-actuo-yoigo-color.svg);background-position: 3px center, right 5px center;background-size: auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_pienso > *:before {content: 'CONTENIDO OFRECIDO POR';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 58px; top: 4px; color: #000;}
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_pienso > *:before{display: none;}
+}
+/* antetitulo starmeapp */
+.antetitulo_comercial_huawei { background:url(../../../iconos/v2.x/v2.0/cintillos_comerciales/fondo-huawei.jpg); }
+.antetitulo_comercial_huawei .enlace,
+.antetitulo_comercial_huawei .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/startmeapp_huawei.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/huawei-blanco.svg);background-position: 3px center, right 5px center;background-size: auto 14px, auto 17px;background-repeat: no-repeat;}
+.antetitulo_comercial_huawei > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 67px;top: 0.31rem; color: #fff;}
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_huawei > *:before{display: none;}
+}
+/* antetitulo Sabadell */
+.antetitulo_comercial_sabadell .enlace,
+.antetitulo_comercial_sabadell .sin_enlace{background-color: #D5D5D5;text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/estar-donde-estes-v2.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/logo-sabadell-v2.svg);background-position: 3px center, right 5px center;background-size: auto 14px, auto 12px;;background-repeat: no-repeat;}
+.antetitulo_comercial_sabadell > *:before {content: 'UN PROYECTO DE '; display: inline-block; text-indent: 0; z-index: 1; font-weight: 400; font-size: 11px; position: absolute; right: 27px; top: 1px; color: #000;}
+
+/* antetitulo Sabadell Bronce */
+.antetitulo_comercial_sabadell_bronce .enlace, 
+.antetitulo_comercial_sabadell_bronce .sin_enlace{background-color: #D5D5D5; text-indent: -9999px; background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/logo-sabadell-v2.svg); background-position: 3px center, right 5px center; background-size: 0, auto 12px;
+background-repeat: no-repeat;}
+.antetitulo_comercial_sabadell_bronce > *:before {content: 'UN PROYECTO DE '; display: inline-block; text-indent: 0; z-index: 1; font-weight: 400; font-size: 11px; position: absolute; right: 27px; top: 1px; color: #000;}
+
+/* antetitulo FarmaIndustria */
+.antetitulo_comercial_farmaindustria .enlace,
+.antetitulo_comercial_farmaindustria .sin_enlace{background-color: #579bac;text-indent: -9999px;}
+.antetitulo_comercial_farmaindustria > *:before {content: 'Contenido Ofrecido por FarmaIndustria'; display: inline-block; text-indent: 0; z-index: 1; font-weight: 700; font-size: 11px; position: absolute; right: 10px; top: 0px; color: #efefef;}
+@media(min-width: 250px){
+	.articulos_cierre .antetitulo_comercial_farmaindustria > *:before{content: 'FarmaIndustria';top: -1px;}
+}
+
+/* antetitulo Mazda*/
+.antetitulo_comercial_mazda { background-color: #F5F5F5; }
+.antetitulo_comercial_mazda .enlace,
+.antetitulo_comercial_mazda .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/nuevaera.svg), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/mazda.png);background-position: 3px center, right 5px center;background-size: auto 10px, auto 13px;background-repeat: no-repeat;}
+.antetitulo_comercial_mazda > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 67px;top: 0.31rem; color: #000000;}
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_mazda > *:before{display: none;}
+}
+
+/* antetitulo Mastercard */
+.antetitulo_comercial_mastercard .enlace,
+.antetitulo_comercial_mastercard .sin_enlace{background-color: #F4F4F4;text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/Conectamos-con.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/mastercard-logo03.svg);background-position: 3px center, right 5px center;background-size: auto 11px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_mastercard > *:before {content: 'UN PROYECTO DE MASTERCARD'; display: inline-block; text-indent: 0; z-index: 1; font-weight: 400; font-size: 9px; position: absolute; right: 31px; top: 3px; color: #000;}
+
+/* antetitulo Mastercard Bronce */
+.antetitulo_comercial_mastercard-bronce .enlace,
+.antetitulo_comercial_mastercard-bronce .sin_enlace{background-color: #F4F4F4;text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/mastercard-logo03.svg);background-position: 3px center, right 5px center;background-size: auto 11px, auto 16px;background-repeat: no-repeat;}
+.antetitulo_comercial_mastercard-bronce > *:before {content: 'UN PROYECTO DE MASTERCARD'; display: inline-block; text-indent: 0; z-index: 1; font-weight: 400; font-size: 9px; position: absolute; right: 34px; top: 2px; color: #000;}
+
+/* antetitulo Mastercard Bronce 2 */
+.antetitulo_comercial_mastercard-bronce-dos .enlace,
+.antetitulo_comercial_mastercard-bronce-dos .sin_enlace{background-color: #F4F4F4;text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/Conectamos-con.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/mastercard-logo03.svg);background-position: 3px center, right 5px center;background-size: auto 11px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_mastercard-bronce-dos > *:before {content: ''; display: inline-block; text-indent: 0; z-index: 1; font-weight: 400; font-size: 9px; position: absolute; right: 31px; top: 3px; color: #000;}
+
+
+/* antetitulo ECI */
+.antetitulo_comercial_eci { background-color: #D1E4CE; }
+.antetitulo_comercial_eci .enlace,
+.antetitulo_comercial_eci .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/responsablemente.svg), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/eci2.png);background-position: 3px center, right 5px center;background-size: auto 14px, auto 17px;background-repeat: no-repeat;}
+.antetitulo_comercial_eci > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 74px;top: 3px; color: #000;}
+@media(min-width: 600px){
+	.articulos_cierre .antetitulo_comercial_eci > *:before{display: none;}
+}
+
+/* antetitulo Renault Feliziudad */
+.antetitulo_comercial_renault { background-color: #eeeeee; }
+.antetitulo_comercial_renault .enlace,
+.antetitulo_comercial_renault .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/feliziudad.svg), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/renault-logo.png);background-position: 3px center, right 5px center;background-size: auto 11px, auto 21px;background-repeat: no-repeat;}
+.antetitulo_comercial_renault > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 74px;top: 3px; color: #000;}
+
+
+/* antetitulo Renault Feliziudad Bronce*/
+.antetitulo_comercial_renault_bronce { background-color: #eeeeee; }
+.antetitulo_comercial_renault_bronce .enlace,
+.antetitulo_comercial_renault_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/renault-logo.png);background-position: 3px center, right 5px center;background-size: auto 11px, auto 21px;background-repeat: no-repeat;}
+.antetitulo_comercial_renault_bronce > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 74px;top: 3px; color: #000;}
+
+/* antetitulo SEAT */
+.antetitulo_comercial_seat { background-color: #84C497; }
+.antetitulo_comercial_seat .enlace, .antetitulo_comercial_seat .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/laalternativaECO.svg), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/seat-logo.png);background-position: 3px center, right -14px center;background-size: auto 11px, auto 43px;background-repeat: no-repeat;}
+.antetitulo_comercial_seat > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #000;}
+
+/* antetitulo SEAT Bronce */
+.antetitulo_comercial_seat_bronce { background-color: #84C497; }
+.antetitulo_comercial_seat_bronce .enlace, .antetitulo_comercial_seat_bronce .sin_enlace {text-indent: -9999px;background-image: url(), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/seat-logo.png);background-position: 3px center, right -14px center;background-size: auto 11px, auto 43px;background-repeat: no-repeat;}
+.antetitulo_comercial_seat_bronce> *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #000;}
+
+/* Mi proximo hibrido */
+.antetitulo_comercial_proximo-hibrido { background-color: #84c497; }
+.antetitulo_comercial_proximo-hibrido .enlace, .antetitulo_comercial_proximo-hibrido .sin_enlace {text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/proximo-hibrido.svg), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/seat-logo-blanco.png);background-position: 3px center, right -14px center;background-size: auto 11px, auto 43px;background-repeat: no-repeat;}
+.antetitulo_comercial_proximo-hibrido > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #ffffff;}
+
+
+/* FORO FUTURO */
+.antetitulo_comercial_forofuturo {background-color: #19a5aa; background-size: 5.7rem auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/foro-futuro-logo.svg);}
+.antetitulo_comercial_forofuturo span,.antetitulo_comercial_forofuturo a {text-indent: -9999px;display: block;}
+.antetitulo_comercial_forofuturo:before {content: 'UN PROYECTO DE'; font-weight: normal; font-size: 0.53rem; position: absolute; right: 0.525rem; top: 0.185rem; padding-right: 5rem; background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/foro-futuro-patro.svg') no-repeat center right; background-size: auto; background-size: auto auto; background-size: auto 100%; height: 60%; line-height: 1rem; color: #ffffff; }
+
+/* Vivir con arte */
+.antetitulo_comercial_vivirconarte {background-color: #F59C00;}
+.antetitulo_comercial_vivirconarte span,.antetitulo_comercial_vivirconarte a {text-indent: -9999px;display: block;}
+.antetitulo_comercial_vivirconarte:before{letter-spacing: 0.03em; content: 'UN PROYECTO DEL';font-family: 'Majerit', serif;font-weight: normal;font-size: 0.688rem;position: absolute;right: 0.525rem;top: 0.29rem;padding-right: 11.55rem;background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/museodelprado.svg') no-repeat center right;background-size: auto;background-size: auto auto;background-size: auto 100%;height: 0.688rem;line-height: 0.8rem;color: #fff;}
+
+/* antetitulo ThinkBig */
+.antetitulo_comercial_tbe { background-color: #003245; padding-right: 7px;}
+.antetitulo_comercial_tbe .enlace, .antetitulo_comercial_tbe .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/hastag-tbe.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/telefonica-empresas-horizontal.svg);background-position: 7px 4px, right center;background-size: auto 12px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_tbe > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: normal; font-size: 0.5rem; position: absolute; right: 100px;top: 3px; color: #fff;}
+
+/* antetitulo ThinkBig Bronce */
+.antetitulo_comercial_tbe_bronce { background-color: #003245; padding-right: 5px;}
+.antetitulo_comercial_tbe_bronce .enlace, .antetitulo_comercial_tbe_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/telefonica-empresas-horizontal.svg);background-position:7px 4px, right center;background-size: auto 12px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_tbe_bronce> *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: normal; font-size: 0.5rem; position: absolute; right: 103px;top: 3px; color: #fff;}
+
+/* Te lo llevas fresco - carrefour */
+.antetitulo_comercial_freso { background-color: #0C395D; padding-right: 7px;}
+.antetitulo_comercial_freso .enlace, .antetitulo_comercial_freso .sin_enlace{text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/fresco-logo.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/carrefour.svg); background-position: 7px 4px, right center; background-size: auto 17px, auto 14px; background-repeat: no-repeat;}
+.antetitulo_comercial_freso > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent:0; z-index:1; font-weight: normal; font-size: 0.5rem; position: absolute; right: 78px;top: 5px; color: #fff;}
+
+/* Te lo llevas fresco - carrefour Bronce (Solo logo y 'un proyecto de') */
+.antetitulo_comercial_freso_bronce { background-color: #0C395D; padding-right: 5px;}
+.antetitulo_comercial_freso_bronce .enlace, .antetitulo_comercial_freso_bronce .sin_enlace{text-indent: -9999px; background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/carrefour.svg); background-position:7px 4px, right center; background-size: auto 12px, auto 14px; background-repeat: no-repeat;}
+.antetitulo_comercial_freso_bronce> *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent:0; z-index:1; font-weight: normal; font-size: 0.5rem; position: absolute; right: 78px;top: 5px; color: #fff;}
+
+/* antetitulo Orange */
+.antetitulo_comercial_orange { background-color: #000000; }
+.antetitulo_comercial_orange .enlace, .antetitulo_comercial_orange .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/usoLovedelaTecnologia.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/orange.svg);background-position: 3px center, right 10px center;background-size: auto 11px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_orange > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #ffffff;}
+
+/* antetitulo Orange Bronce */
+.antetitulo_comercial_orange_bronce { background-color: #000000; }
+.antetitulo_comercial_orange_bronce .enlace, .antetitulo_comercial_orange_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/orange.svg);background-position: 3px center, right 10px center;background-size: auto 11px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_orange_bronce > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #ffffff;}
+
+/* antetitulo 1906 */
+.antetitulo_comercial_1906 { background-color: #FAEEBE; }
+.antetitulo_comercial_1906 .enlace, .antetitulo_comercial_1906 .sin_enlace {text-indent: -9999px;background-image: url(../../../iconos/v2.x/v2.0/cintillos_comerciales/Ciclo1906_logotipo.png), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/UNPROYECTODECERVE.svg);background-position: 3px center, right 5px center;background-size: auto 16px, auto 12px;background-repeat: no-repeat;}
+.antetitulo_comercial_1906 > *:before {content: '';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #000;}
+
+/* antetitulo Cepsa */
+.antetitulo_comercial_cepsa { background-color: #000000; }
+.antetitulo_comercial_cepsa .enlace, .antetitulo_comercial_cepsa .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cepsa-copy.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cepsa.svg);background-position: 3px center, right 10px center;background-size: auto 8px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_cepsa > *:before {content: '';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #ffffff;}
+
+/* antetitulo Cepsa Bronce */
+.antetitulo_comercial_cepsa_bronce { background-color: #000000; }
+.antetitulo_comercial_cepsa_bronce .enlace, .antetitulo_comercial_cepsa_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cepsa.svg);background-position: 3px center, right 10px center;background-size: auto 8px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_cepsa_bronce > *:before {content: '';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #ffffff;}
+
+/* antetitulo Danone */
+.antetitulo_comercial_danone { background-color: #005EB8; }
+.antetitulo_comercial_danone .enlace, .antetitulo_comercial_danone .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/ep-tlbf.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/danone-cintillo.svg);background-position: 7px center, right 6px center;background-size: auto 8px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_danone > *:before {content: '';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #ffffff;}
+
+/* antetitulo Danone Bronce */
+.antetitulo_comercial_danone_bronce { background-color: #005EB8; }
+.antetitulo_comercial_danone_bronce .enlace, .antetitulo_comercial_danone_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/danone-cintillo.svg);background-position: 3px center, right 10px center;background-size: auto 8px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_danone_bronce > *:before {content: 'ESPECIAL PUBLICIDAD'; display: inline-block; text-indent:0; z-index:1; font-weight: 300; font-size: 7px; position: absolute; right: 62px;top: 4px; color: #ffffff;}
+
+/* antetitulo CLA */
+.antetitulo_comercial_cla { background: -webkit-linear-gradient(left, rgba(0,71,111,1) 0%, rgba(2,147,231,1) 100%); background: -o-linear-gradient(left, rgba(0,71,111,1) 0%, rgba(2,147,231,1) 100%); background: linear-gradient(to right, rgba(0,71,111,1) 0%, rgba(2,147,231,1) 100%);}		
+.antetitulo_comercial_cla .enlace, .antetitulo_comercial_cla .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cla-cintillo-claim.svg), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/cla-cintillo-logo.png);background-position: 7px center, right 12px center;background-size: auto 16px, auto 19px;background-repeat: no-repeat;}
+.antetitulo_comercial_cla > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 70px;top: 4px; color: #ffffff;}
+
+/* antetitulo CLA Bronce */
+.antetitulo_comercial_cla_bronce { background: -webkit-linear-gradient(left, rgba(0,71,111,1) 0%, rgba(2,147,231,1) 100%); background: -o-linear-gradient(left, rgba(0,71,111,1) 0%, rgba(2,147,231,1) 100%); background: linear-gradient(to right, rgba(0,71,111,1) 0%, rgba(2,147,231,1) 100%);}	
+.antetitulo_comercial_cla_bronce .enlace, .antetitulo_comercial_cla_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/cla-cintillo-logo.png);background-position: 3px center, right 10px center;background-size: auto 8px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_cla_bronce > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 7px; position: absolute; right: 62px;top: 4px; color: #ffffff;}
+
+/* antetitulo Correos Nuevos Tiempos */
+.antetitulo_comercial_correosnuevostiempos { background-color: #FFD500; }
+.antetitulo_comercial_correosnuevostiempos .enlace, .antetitulo_comercial_correosnuevostiempos .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/correos1-left.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/correos1-logo.svg);background-position: 7px center, right 6px center;background-size: auto 8px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_correosnuevostiempos > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 26px; top: 2px; color: #193B69;}
+
+/* antetitulo Correos Nuevos Tiempos Bronce */
+.antetitulo_comercial_correosnuevostiempos_bronce { background-color: #FFD500; }
+.antetitulo_comercial_correosnuevostiempos_bronce .enlace, .antetitulo_comercial_correosnuevostiempos_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/correos1-logo.svg);background-position: 3px center, right 10px center;background-size: auto 8px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_correosnuevostiempos_bronce > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 30px; top: 2px; color: #193B69;}
+
+/* antetitulo Especial 1906 */
+.antetitulo_comercial_1906especial { background-color: #F8EEC3; }
+.antetitulo_comercial_1906especial .enlace, .antetitulo_comercial_1906especial .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906-cintillo-1-parte-1.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906-cintillo-1-parte-2.svg);background-position: 1px center, right 1px center; background-size: auto 22px, auto 22px; background-repeat: no-repeat;}
+.antetitulo_comercial_1906especial > *:before {content: '';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 26px; top: 2px; color: #193B69;}
+
+/* antetitulo Historias 1906 */
+.antetitulo_comercial_1906historias  { background-color: #F8EEC3; }
+.antetitulo_comercial_1906historias .enlace, .antetitulo_comercial_1906historias .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906-cintillo-2-parte-08.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906-cintillo-2-parte-09.svg);background-position: 1px 0, right 1px center; background-size: auto 22px, auto 22px; background-repeat: no-repeat;}
+.antetitulo_comercial_1906historias > *:before {content: '';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 26px; top: 2px; color: #193B69;}
+
+/* antetitulo Historias 1906 Bronce */
+.antetitulo_comercial_1906historias_bronce  { background-color: #F8EEC3; }
+.antetitulo_comercial_1906historias_bronce .enlace, .antetitulo_comercial_1906historias_bronce .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906-cintillo-2-parte-09.svg);background-position: 1px 0, right 1px center; background-size: auto 22px, auto 22px; background-repeat: no-repeat;}
+.antetitulo_comercial_1906historias_bronce > *:before {content: '';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 26px; top: 2px; color: #193B69;}
+
+/* VW Ser Electrico - Especial */
+.antetitulo_comercial_vw-especial-ser-electrico { background:#0082D6}
+.antetitulo_comercial_vw-especial-ser-electrico .enlace, .antetitulo_comercial_vw-especial-ser-electrico .sin_enlace { text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/volkswagen-white.svg); background-position: right 5px center; background-size: auto 15px; background-repeat: no-repeat;}
+.antetitulo_comercial_vw-especial-ser-electrico > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 24px; top: 2px; color: #fff}
+
+/* VW Ser Electrico */
+.antetitulo_comercial_vw-ser-electrico { background: #0082D6}
+.antetitulo_comercial_vw-ser-electrico .enlace, .antetitulo_comercial_vw-ser-electrico .sin_enlace { text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/vw-ser-electrico.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/volkswagen-white.svg); background-position: 8px 3px, right 5px center; background-size: auto 12px, auto 15px; background-repeat: no-repeat;}
+.antetitulo_comercial_vw-ser-electrico > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 24px; top: 2px; color: white;}
+
+/* Toyota Conduce como piensas - Especial */
+.antetitulo_comercial_conduce_como_piensas_especial { background-color: #000; }
+.antetitulo_comercial_conduce_como_piensas_especial .enlace, .antetitulo_comercial_conduce_como_piensas_especial .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/toyota-cab-titulo.svg), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/toyota-cint-logo.png);background-position: 7px 4px, right 6px center;background-size: auto 12px, auto 12px;background-repeat: no-repeat;}
+.antetitulo_comercial_conduce_como_piensas_especial > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 8px; position: absolute; right: 83px; top: 4px; color: #efefef;}
+
+/* Toyota Conduce como piensas */
+.antetitulo_comercial_conduce_como_piensas { background-color: #000; }
+.antetitulo_comercial_conduce_como_piensas .enlace, .antetitulo_comercial_conduce_como_piensas .sin_enlace{text-indent: -9999px;background-image: url(), url(../../../iconos/v2.x/v2.0/cintillos_comerciales/toyota-cint-logo.png);background-position: 3px center, right 10px center;background-size: auto 8px, auto 12px;background-repeat: no-repeat;}
+.antetitulo_comercial_conduce_como_piensas > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 9px; position: absolute; right: 86px; top: 2px; color: #efefef;}
+
+
+/* Caso Ibar */
+.antetitulo_comercial_caso_ibar { background-color: #EEEEDC; }
+.antetitulo_comercial_caso_ibar .enlace, .antetitulo_comercial_caso_ibar .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/especial-casoibar.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/movistar_ibar.svg);background-position: 7px center, right 6px center;background-size: auto 12px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_caso_ibar > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 10px; position: absolute; right: 30px; top: 2px; color: #000;}
+
+/* Caso Ibar - Especial */
+.antetitulo_comercial_caso_ibar_especial { background-color: #EEEEDC; }
+.antetitulo_comercial_caso_ibar_especial .enlace, .antetitulo_comercial_caso_ibar_especial .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/movistar_ibar.svg);background-position: 7px center, right 6px center;background-size: auto 12px, auto 14px;background-repeat: no-repeat;}
+.antetitulo_comercial_caso_ibar_especial > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 10px; position: absolute; right: 30px; top: 2px; color: #000;}
+
+/* Somos lo que hacemos */
+.antetitulo_comercial_somos_lo_que_hacemos { background-color: #6E913A; }
+.antetitulo_comercial_somos_lo_que_hacemos .enlace, .antetitulo_comercial_somos_lo_que_hacemos .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/somos_lo_que_hacemos.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/somos_lo_que_hacemos-logo.svg);background-position: 7px center, right 6px center;background-size: auto 12px, auto 11px;background-repeat: no-repeat;}
+.antetitulo_comercial_somos_lo_que_hacemos > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 10px; position: absolute; right: 67px; top: 2px; color: #fff;}
+
+/* Somos lo que hacemos - ICON */
+.antetitulo_comercial_somos_lo_que_hacemos_especial { background-color: #6E913A; }
+.antetitulo_comercial_somos_lo_que_hacemos_especial .enlace, .antetitulo_comercial_somos_lo_que_hacemos_especial .sin_enlace{text-indent: -9999px;background-image: url(), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/somos_lo_que_hacemos-logo.svg);background-position: 7px center, right 6px center;background-size: auto 12px, auto 11px;background-repeat: no-repeat;}
+.antetitulo_comercial_somos_lo_que_hacemos_especial > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent:0; z-index:1; font-weight: 400; font-size: 10px; position: absolute; right: 67px; top: 2px; color: #fff;}
+
+/* Premios Emmy 2019 */
+.antetitulo_comercial_emmys2019 {background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/premiosemmybg.svg); background-position: center; background-size: cover}
+.antetitulo_comercial_emmys2019 .enlace, .antetitulo_comercial_emmys2019 .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/premiosemmy2019.svg);background-position: 7px center;background-size: auto 12px;background-repeat: no-repeat;}
+
+/* Premios Emmy 2019 - HBO */
+.antetitulo_comercial_emmys2019_especial {background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/premiosemmybg.svg); background-position: center; background-size: cover}
+.antetitulo_comercial_emmys2019_especial .enlace, .antetitulo_comercial_emmys2019_especial .sin_enlace{text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/premiosemmy2019.svg);background-position: 7px center;background-size: auto 12px;background-repeat: no-repeat;}
+
+/* Clece cuidar y ser cuidado */
+.antetitulo_comercial_clece-cuidar-ser-cuidado { background-color: #00205C; }
+.antetitulo_comercial_clece-cuidar-ser-cuidado .enlace, .antetitulo_comercial_clece-cuidar-ser-cuidado .sin_enlace {text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/clece-cuidar-tit.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/clece-logo-blanco.svg);background-position: 8px 55.84%, right 5px center; background-size: 89px auto, 40px auto; background-repeat: no-repeat;}
+.antetitulo_comercial_clece-cuidar-ser-cuidado > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 50px; top: 20%; color: #ffffff;}
+
+.antetitulo_comercial_clece-cuidar-ser-cuidado_bronce { background-color: #00205C; }
+.antetitulo_comercial_clece-cuidar-ser-cuidado_bronce .enlace, .antetitulo_comercial_clece-cuidar-ser-cuidado_bronce .sin_enlace {text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/clece-logo-blanco.svg);background-position: right 2px center; background-size: 37% auto; background-repeat: no-repeat;}
+.antetitulo_comercial_clece-cuidar-ser-cuidado_bronce > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 42%; top: 20%; color: #ffffff;}
+
+/* Renfe Proxima Parada */
+.antetitulo_comercial_renfe-prox-parada { background-color: #A5106B; }
+.antetitulo_comercial_renfe-prox-parada .enlace, .antetitulo_comercial_renfe-prox-parada .sin_enlace {text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/renfe-prox-parada-tit.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/renfe-logo-blanco.svg);background-position: 8px 51.84%, right 5px top 4px; background-size: 91px auto, 40px auto; background-repeat: no-repeat;}
+.antetitulo_comercial_renfe-prox-parada > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 50px; top: 5px; color: #fff;}
+
+.antetitulo_comercial_renfe-prox-parada_bronce { background-color: #A5106B; }
+.antetitulo_comercial_renfe-prox-parada_bronce .enlace, .antetitulo_comercial_renfe-prox-parada_bronce .sin_enlace {text-indent: -9999px;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/renfe-logo-blanco.svg);background-position: right 5px top 4px; background-size: 40px auto; background-repeat: no-repeat;}
+.antetitulo_comercial_renfe-prox-parada_bronce > *:before {content: 'UN PROYECTO DE';display: inline-block; text-indent:0; z-index:1; font-weight: bold; font-size: 0.5rem; position: absolute; right: 50px; top: 5px; color: #fff;}
+
+/* 1906 Inmensa Minoria */
+.antetitulo_comercial_1906inmensaminoria, .antetitulo_comercial_1906inmensaminoria_bronce {background-color: #F8ECBB}
+.antetitulo_comercial_1906inmensaminoria .enlace, .antetitulo_comercial_1906inmensaminoria .sin_enlace {text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906inmensa.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906inmensa-logo.svg); background-position: 7px center, right 6px center; background-size: auto 10px, auto 11px; background-repeat: no-repeat}
+.antetitulo_comercial_1906inmensaminoria_bronce .enlace, .antetitulo_comercial_1906inmensaminoria_bronce .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/1906inmensa-logo.svg) no-repeat right 6px center/auto 11px}
+.antetitulo_comercial_1906inmensaminoria > *:before, .antetitulo_comercial_1906inmensaminoria_bronce > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent:0; z-index:1; font-weight: 600; font-size: 9px; position: absolute; right: 38px; top: 2px; color: #000}
+
+/* Conduce como piensas - Toyota Hybrid */
+.antetitulo_comercial_conducehybrid, .antetitulo_comercial_conducehybrid_bronce {background-color: #000}
+.antetitulo_comercial_conducehybrid .enlace, .antetitulo_comercial_conducehybrid .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/CONDUCECOMOPIENSAS.svg) no-repeat 7px center/auto 11px, url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/hybrid-white.svg) no-repeat right 6px center/auto 11px}
+.antetitulo_comercial_conducehybrid_bronce .enlace, .antetitulo_comercial_conducehybrid_bronce .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/hybrid-white.svg) no-repeat right 6px center/auto 11px}
+.antetitulo_comercial_conducehybrid > *:before, .antetitulo_comercial_conducehybrid_bronce > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent: 0; z-index: 1; font-weight: 600; font-size: 8px; position: absolute; right: 78px; top: 4px; color: #fff}
+
+/* Reto Lehnica - Correos */
+.antetitulo_comercial_lehnicacorreos, .antetitulo_comercial_lehnicacorreos_bronce {background: rgba(29,207,204,1); background: linear-gradient(135deg, rgba(29,207,204,1) 0%, rgba(251,205,0,1) 100%)}
+.antetitulo_comercial_lehnicacorreos .enlace, .antetitulo_comercial_lehnicacorreos .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/reto-lehnica.svg) no-repeat 6px center / auto 12px, url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/un-proyecto-de-correos-lehnica.svg) no-repeat right 6px center / auto 14px}
+.antetitulo_comercial_lehnicacorreos_bronce .enlace, .antetitulo_comercial_lehnicacorreos_bronce .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/un-proyecto-de-correos-lehnica.svg) no-repeat right 6px center / auto 14px}
+
+/* La Despensa - ALDI */
+.antetitulo_comercial_ladespensa, .antetitulo_comercial_ladespensa_bronce {background: #CBD9E2; background: linear-gradient(135deg, #CBD9E2 0%, #B4C5D0 100%)}
+.antetitulo_comercial_ladespensa .enlace, .antetitulo_comercial_ladespensa .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/aldi-ladespensa.svg) no-repeat 6px 3px / auto 16px, url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/aldi-logo.svg) no-repeat right 6px center / auto 14px}
+.antetitulo_comercial_ladespensa_bronce .enlace, .antetitulo_comercial_ladespensa_bronce .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/aldi-logo.svg) no-repeat right 6px center / auto 14px}
+.antetitulo_comercial_ladespensa > *:before, .antetitulo_comercial_ladespensa_bronce > *:before {content: 'UN PROYECTO DE'; display: inline-block; text-indent: 0; z-index: 1; font-weight: 600; font-size: 9px; position: absolute; right: 49px; top: 2px; color: #576D7B}
+
+/* VW Ser Electrico - V2 */
+.antetitulo_comercial_vw-ser-electrico-v2 { background: #0082D6}
+.antetitulo_comercial_vw-ser-electrico-v2 .enlace, .antetitulo_comercial_vw-ser-electrico-v2 .sin_enlace { text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/vw-cintillo-v3.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/volkswagen-white.svg); background-position: 8px 3px, right 5px center; background-size: auto 12px, auto 15px; background-repeat: no-repeat;}
+
+/* Hagámoslo Juntos - CocaCola */
+.antetitulo_comercial_hagamoslojuntos, .antetitulo_comercial_hagamoslojuntos_bronce {background: #E5E5E5}
+.antetitulo_comercial_hagamoslojuntos .enlace, .antetitulo_comercial_hagamoslojuntos .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cintillo-hagamoslo-juntos.svg) no-repeat 6px 3px / auto 14px, url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cintillo-cocacola.svg) no-repeat right 6px center / auto 11px}
+.antetitulo_comercial_hagamoslojuntos_bronce .enlace, .antetitulo_comercial_hagamoslojuntos_bronce .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cintillo-cocacola.svg) no-repeat right 6px center / auto 11px}
+
+/* Calendario Navidad - El Corte Inglés */
+.antetitulo_comercial_calendarionavidad, .antetitulo_comercial_calendarionavidad_bronce {background: #E7E6DB}
+.antetitulo_comercial_calendarionavidad .enlace, .antetitulo_comercial_calendarionavidad .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/una-idea-cada-dia-cintillo-bloque-mobile-v3.svg) no-repeat 6px 5px / auto 10px, url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/un-proyecto-de-cintillo-v3.svg) no-repeat right 6px center / auto 13px}
+.antetitulo_comercial_calendarionavidad_bronce .enlace, .antetitulo_comercial_calendarionavidad_bronce .sin_enlace {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/un-proyecto-de-cintillo-v3.svg) no-repeat right 6px center / auto 13px}
+
+/* antetitulo Iluminaciones - Endesa */
+.antetitulo_comercial_iluminaciones .enlace,
+.antetitulo_comercial_iluminaciones .sin_enlace{background-color: #D2E7EA; text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/iluminaciones-logo-pq.svg), url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/iluminaciones-patro.svg); background-position: 3px center, right 4px center; background-size: auto 14px, auto 9px; background-repeat: no-repeat;}
+.antetitulo_comercial_iluminaciones > *:before {content: 'EN COLABORACIÓN CON '; display: inline-block; text-indent: 0; z-index: 1; font-weight: 300; font-size: 8px; position: absolute; right: 51px; top: 4px; color: #000;}
+.articulos_cierre .antetitulo_comercial_iluminaciones > *:before { content:'';}
+
+/* Territorio Puma - Ford */
+.antetitulo_comercial_fordpuma, .antetitulo_comercial_fordpuma_bronce {background: #000}
+.antetitulo_comercial_fordpuma .enlace, .antetitulo_comercial_fordpuma .sin_enlace {text-indent: -9999rem; background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cintillo-territorio-puma.svg') no-repeat 0.375rem 0.25rem / auto 0.75rem, url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cintillo-un-proyecto-de-ford.svg') no-repeat right 0.375rem center / auto 0.8125rem}
+.antetitulo_comercial_fordpuma_bronce .enlace, .antetitulo_comercial_fordpuma_bronce .sin_enlace {text-indent: -9999rem; background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos_comerciales/cintillo-un-proyecto-de-ford.svg') no-repeat right 0.375rem center / auto 0.8125rem}
