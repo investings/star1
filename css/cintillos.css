@@ -1,0 +1,415 @@
+.articulo-antetitulo{line-height: 1.5;}
+.articulo-antetitulo a, .articulo-antetitulo span{display: inline-block;}
+[class*="antetitulo_"] a{display:block;text-indent:-9999px;min-width:80px;background-size:auto 0.688rem;background-position:0 center;background-repeat:no-repeat;}
+.bloque_mosaico [class*="antetitulo_"] a{line-height:1.125rem;font-size:1.125rem;background-size:auto 1.125rem;}
+.antetitulo_elviajero a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elviajero-negro.svg);background-size: auto 15px;}
+.bloque_mosaico .antetitulo_elviajero a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elviajero-blanco.svg);width:80px; line-height: 1.8rem; background-size: auto 1.8rem; width:170px; margin-top: -0.2rem;}
+.antetitulo_eps a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/eps-negro-horizontal.svg);background-size: auto 14px;}
+.bloque_mosaico .antetitulo_eps a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/eps-negro.svg);  background-size: auto 14px;height: 39px;width: 90px;}
+.bloque_cierre .antetitulo_eps a{ background-size: auto 1.1rem;  margin: -3px 0 8px 0;}
+.antetitulo_icon a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/icon-negro.svg);}
+.bloque_mosaico .antetitulo_icon a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/icon-blanco.svg);width:100px;}
+.antetitulo_buenavida a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/buenavida-negro.svg);}
+.bloque_mosaico .antetitulo_buenavida a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/buenavida-blanco.svg);width:170px;}
+.bloque_cierre .antetitulo_buenavida a { background-size: auto 0.8rem;  }
+.antetitulo_as a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/as-negro.svg);}
+.bloque_mosaico .antetitulo_as a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/as-blanco.svg);}
+.antetitulo_tentaciones a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/tentaciones-negro.svg);}
+.bloque_mosaico .antetitulo_tentaciones a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/tentaciones-blanco.svg);width:170px;}
+.bloque_cierre .antetitulo_tentaciones a { background-size: auto 0.9rem;}
+section:not(.bloque_verticales) .antetitulo_babelia { margin-bottom:0;  }
+section:not(.bloque_verticales) .antetitulo_babelia a{background: #000 url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/babelia_blanco.svg) no-repeat 10px center; background-size: auto 15px; height: 30px; position:relative;}
+section:not(.bloque_verticales) .antetitulo_babelia a:before {background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/babelia_bandera.svg) no-repeat; position:absolute; top: 0; right: 6px; z-index:1; content:""; width: 31px; height: 34px; }
+.bloque_mosaico .antetitulo_babelia a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/babelia-blanco.svg);line-height: 1.5rem; background-size: auto 1.5rem; width:170px;margin-top: -0.4rem;}
+.antetitulo_huffington a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/huffingtonpost.svg); background-size: auto 13px;}
+.bloque_mosaico .antetitulo_huffington a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/huffingtonpost-blanco.svg);line-height: 2.25rem; background-size: auto 2.25rem;width:190px;}
+.antetitulo_elcomidista a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elcomidista-texto.svg);background-size: auto 14px;}
+.bloque_mosaico .articulo .antetitulo_elcomidista{top:1.1rem;}
+.bloque_mosaico .antetitulo_elcomidista a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elcomidista-blanco.svg);height: 30px;background-size: auto 100%;width: 120px;}
+.bloque_cierre .antetitulo_elcomidista a{background-size:auto 2rem;}
+.antetitulo_el-pais-semanal a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/eps-negro-horizontal.svg);}
+.bloque_mosaico .antetitulo_el-pais-semanal a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/el-pais-semanal-blanco.svg);line-height: 2.25rem; background-size: auto 2.25rem;}
+.antetitulo_verne a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/verne-negro.svg);}
+.bloque_mosaico .antetitulo_verne a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/verne-blanco.svg);width:100px;}
+.antetitulo_jotdown a{background-image: url(../../../iconos/v2.x/v2.0/cintillos/jotdown-negro.png);}
+.bloque_mosaico .antetitulo_jotdown a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/jotdown-blanco.svg);width:100px;}
+.bloque_cierre .antetitulo_jotdown a  { margin: 4px 0 -4px; background-size: auto 1.5rem;}
+.antetitulo_elmotor a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elmotor-negro.svg);}
+.bloque_mosaico .antetitulo_elmotor a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elmotor-blanco.svg);width:120px;}
+.antetitulo_smoda a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/smoda-negro.svg);}
+.bloque_mosaico .antetitulo_smoda a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/smoda-blanco.svg);width:60px;background-size: contain;height: 39px;}
+.bloque_cierre .antetitulo_smoda a { background-size: auto 1.4rem; }
+.antetitulo_40-aniversario a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.1/bloques_tematicos/40-aniversario_peq.svg);}
+.bloque_cierre .antetitulo_40-aniversario a {background-size: auto 1.3rem; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.1/bloques_tematicos/40-aniversario_peq_rojo.svg);}
+.antetitulo_elecciones_usa_2016 a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elecciones-eeuu-2016.svg);}
+/*.bloque_cierre .antetitulo_elecciones_usa_2016 a { background-size: auto 0.58rem; }*/
+.antetitulo_cincodias a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/cincodias.svg);background-size: auto 13px;}
+.bloque_cierre .antetitulo_cincodias a {background-size: auto 1.4rem;}
+.bloque_mosaico .antetitulo_cincodias a {line-height: 1.8rem;background-size: auto 1.5rem; width: 150px; margin-top: -0.2rem; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/cincodias-blanco.svg);}
+.antetitulo_guiadelocio a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/guidelocio.svg);}
+.bloque_cierre .antetitulo_guiadelocio a { background-size: auto 1.9rem; }
+.antetitulo_negocios a{background-image: url(http://ep01.epimg.net/estaticos/2015/10/negocios/img/agrupador-nombre.svg);}
+.bloque_mosaico .antetitulo_negocios a {line-height: 1.8rem;background-size: auto 1.5rem; width: 150px; margin-top: -0.2rem;background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/negocios-blanco.svg);}
+.bloque_cierre .antetitulo_negocios a {     background-size: auto 1.3rem; }
+/*.antetitulo_tlife a{background-image: url(/iconos/v2.x/v2.0/cintillos/tlife.png);}*/
+.antetitulo_tlife{line-height: 1.35rem;}
+.antetitulo_tlife a{background: url(../../../iconos/v2.x/v2.0/cintillos/tlife-blanco.png) 5px center no-repeat #0752A5; width:auto; position:relative; background-size: 82px;}
+.antetitulo_tlife a:after { background: url(../../../iconos/v2.x/v2.0/cintillos/bbva-tlife.png) center no-repeat; content: ''; display: block; position: absolute; top: 0; right: 5px; height: 100%;width: 34px; background-size: 33px auto;}
+.articulo-antetitulo.antetitulo_tlife {margin-bottom:0;}
+.bloque_cierre .antetitulo_tlife a{background: url(../../../iconos/v2.x/v2.0/cintillos/tlife-blanco.png) 5px 5px no-repeat #0752A5; width:auto; position:relative; background-size:auto;}
+.antetitulo_mamas-papas a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/mamas-papas-negro.svg);}
+.bloque_cierre .antetitulo_mamas-papas a {}
+.antetitulo_epv a{background-image: url(http://ep01.epimg.net/epv/iconos/v1.x/v1.0/logos/eptv.svg);}
+.bloque_cierre .antetitulo_epv a {background-size: auto 1.4rem;}
+.antetitulo_ultima-hora .sin_enlace, .antetitulo_ultima-hora a{text-indent:0;font-size:0.688rem;font-weight:900;text-indent:0;background-color:#FF0000;color:#fff;padding:0 0.375rem;display:inline-block;}
+.antetitulo_ultima-hora + .foto{margin-top:-.3rem;}
+.antetitulo_endirecto .sin_enlace, .antetitulo_endirecto a{text-indent:0;font-weight:900;text-indent:0;color:#FF0000;position:relative;display:inline-block;}
+.antetitulo_endirecto .sin_enlace:after, .antetitulo_endirecto a:after{content: ''; width: 0.250rem; height: 0.250rem; border-radius: 0.125rem; background-color: #FF3F00; position: absolute; top: 0; right: -0.313rem; z-index: 2; -webkit-animation: Directo 1s infinite; -moz-animation: Directo 1s infinite; -o-animation: Directo 1s infinite; animation: Directo 1s infinite;}
+.bloque_a .antetitulo_endirecto a:after{content:'';}
+.antetitulo_retina a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/retina-negro.svg);}
+.bloque_cierre .antetitulo_retina a  {background-size: auto 1.2rem;}
+.antetitulo_elpaiscat a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elpaiscat-v2.svg);background-size: auto 14px; text-indent: -9999px;}
+.bloque_cierre .antetitulo_elpaiscat a  {background-size: auto 1.1rem;}
+.bloque_a .antetitulo_elecciones_generales_2016 a:after{display:none;}
+.antetitulo_elecciones_generales_2016 a{display:block;background:#1A86B5 url(../../../iconos/v2.x/v2.0/cintillos/elecciones_generales_2016.png) right center no-repeat;text-indent:0;line-height:26px;color:#fff;padding-left:.688rem;padding-right:4rem;}
+.antetitulo_elecciones_generales_2016 + .foto{margin-top: -0.300rem;}
+.antetitulo_elecciones-eeuu-2016 a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elecciones-eeuu-2016.svg);}
+.salida_articulo .antetitulo_elecciones-eeuu-2016 a{ width: 12rem;}
+.antetitulo_afondo .sin_enlace, .antetitulo_afondo a,
+.antetitulo_investigacion .sin_enlace, .antetitulo_investigacion a{text-indent:0;font-size:0.688rem;font-weight:900;text-indent:0;background-color:#333333;color:#fff;padding:0 0.375rem;display:inline-block;min-width: 6.5rem;}
+.antetitulo_facebooklive{background-color:#3B5998;text-align: center;margin: 0;line-height: 1.95;}
+.antetitulo_facebooklive .sin_enlace, .antetitulo_facebooklive .enlace{text-indent:0;font-size:0.688rem;font-weight:900;text-indent:0;color:#fff;display:block;}
+.antetitulo_facebooklive .sin_enlace:after, .antetitulo_facebooklive .enlace:after{content: 'LIVE';margin-left:2px;padding: 0 2px;background: #EE4242;display: inline-block;line-height: 12px;font-size: 8px;position: relative;top:-1px;}
+.antetitulo_facebooklive + .foto{}
+.antetitulo_mundo_global a{background-image: url(../../../iconos/v2.x/v2.0/cintillos/mundo-global.png);background-size: 139px 16px; height: 16px;width: 140px;}
+.antetitulo_universo_trump a{background-image: url(../../../iconos/v2.x/v2.0/cintillos/universo-trump.png);background-size: 139px 16px; height: 16px;width: 140px;}
+.antetitulo_runrun_mercado a{background-image: url(../../../iconos/v2.x/v2.0/cintillos/runrun-mercado.png);background-size: 139px 16px; height: 16px;width: 140px;}
+/* día de la mujer */
+.antetitulo_dia-mujer {background-color: lightpink; background-size: 120px auto; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/dia-mujer.svg); background-repeat:no-repeat;}
+.antetitulo_dia-mujer a {text-indent: -9999px;}
+.salida_articulo .antetitulo_dia-mujer {background-color: lightpink; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/dia-mujer.svg); margin-bottom: 15px; background-repeat:no-repeat;}
+/* 40 aniversario constitucion */
+.salida_articulo .antetitulo_aniversario_constitucion {background-color: #00afea;  }
+.salida_articulo .antetitulo_aniversario_constitucion span,
+.salida_articulo .antetitulo_aniversario_constitucion a {text-indent: -9999px; display: inline-block; background: url(http://ep01.epimg.net/estaticos/2018/09/gonzalez-aznar/img/texto.svg) no-repeat; background-size: 100% auto; margin: 16px 0 0 10px; width: 160px;}
+/* elecciones andaluzas */
+.antetitulo_elecciones-anadalucia {  padding-left: 27px; position: relative; }
+.antetitulo_elecciones-anadalucia a,
+.antetitulo_elecciones-anadalucia span { text-indent:0; font-size: 11px; font-weight: 700; color:#25594d; }
+.antetitulo_elecciones-anadalucia:before {position: absolute;bottom: -2px;left: 0;z-index: 1;content:"";width: 24px;height: 24px;background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/logo-andalucia.svg) no-repeat;background-size: auto 24px;}
+
+/* elecciones generales 28a */
+.antetitulo_elecciones_28a {  padding-left: 27px; position: relative; }
+.antetitulo_elecciones_28a a,
+.antetitulo_elecciones_28a span { text-indent:0; font-size: 12px; font-weight: 700; color:#4086B2; }
+.antetitulo_elecciones_28a:before {position: absolute;bottom: -2px;left: 0;z-index: 1;content:"";width: 24px;height: 24px;background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/logo-28a.svg) no-repeat;background-size: auto 24px;}
+
+/* elecciones  26m-europeas */
+.antetitulo_elecciones_europeas-26m { position: relative; }
+.antetitulo_elecciones_europeas-26m a,
+.antetitulo_elecciones_europeas-26m span { text-indent:0; font-size: 11px; font-weight: 700; color:#01679C; padding-left: 17px;}
+.antetitulo_elecciones_europeas-26m a:before,
+.antetitulo_elecciones_europeas-26m span:before {position: absolute; top: 2px; left: 0; content: ''; display: block; height: 12px; width: 12px; background:#FFF; border-radius: 100%;background:#FFEE47; }
+/* elecciones  26m-municipales */
+.antetitulo_elecciones_municipales-26m { position: relative; }
+.antetitulo_elecciones_municipales-26m a,
+.antetitulo_elecciones_municipales-26m span { text-indent:0; font-size: 11px; font-weight: 700; color:#01679C; padding-left: 17px;}
+.antetitulo_elecciones_municipales-26m a:before,
+.antetitulo_elecciones_municipales-26m span:before {position: absolute; top: 2px; left: 0; content: ''; display: block; height: 12px; width: 12px; background:#FFF; border-radius: 100%;background:#00FFD8; }
+/* elecciones  26m-autonomicas */
+.antetitulo_elecciones_autonomicas-26m { position: relative; }
+.antetitulo_elecciones_autonomicas-26m a,
+.antetitulo_elecciones_autonomicas-26m span { text-indent:0; font-size: 11px; font-weight: 700; color:#01679C; padding-left: 17px;}
+.antetitulo_elecciones_autonomicas-26m a:before,
+.antetitulo_elecciones_autonomicas-26m span:before {position: absolute; top: 2px; left: 0; content: ''; display: block; height: 12px; width: 12px; background:#FFF; border-radius: 100%;background:#00CAF1; }
+
+/* elecciones  26m */
+.antetitulo_elecciones_26m { position: relative; }
+.antetitulo_elecciones_26m a,
+.antetitulo_elecciones_26m span { text-indent:0; font-size: 12px; font-weight: 700; color:#01679C;  position: relative; padding-left: 44px; }
+.antetitulo_elecciones_26m a:before,
+.antetitulo_elecciones_26m span:before {position: absolute;bottom: -6px;left: 0;z-index: 1;content:"";width: 41px;height: 24px;background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/logo-26m-azul.svg) no-repeat;background-size: auto 16px;}
+.antetitulo_elecciones_26m a:after,
+.antetitulo_elecciones_26m span:after{ position: absolute; top:2px; left:38px; content:"" !important; width: 1px; background: #01679C; height: 12px; }
+
+/* elecciones generales 10n */
+.antetitulo_elecciones_10n {  padding-left: 35px; position: relative; }
+.antetitulo_elecciones_10n a,
+.antetitulo_elecciones_10n span { text-indent:0; font-size: 12px; font-weight: 700; color:#4086B2; }
+.antetitulo_elecciones_10n:before {position: absolute; bottom: 2px; left: 0; z-index: 1;content:"";width: 30px;height: 14px;background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/logo-10n.svg) no-repeat; background-size: auto 14px;}
+
+/* cintillo tour de francia solo para portadillas */
+body:not(.salida_portada) .antetitulo_tour_francia {background-color: #EED500; margin-bottom: 0; }
+body:not(.salida_portada) .antetitulo_tour_francia span,
+body:not(.salida_portada) .antetitulo_tour_francia a {text-indent: -9999px; display: inline-block; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/las-paginas-amarillas.svg) no-repeat; background-size: 100% auto;  width: 180px; height: 20px; margin-left: 4px;}
+body.salida_portada .antetitulo_tour_francia span,
+body.salida_portada .antetitulo_tour_francia a { text-indent: 0;}
+
+/* Juicio al procés */
+.antetitulo_juicio-proces a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/juicio-proces-directo2.svg);background-size: 282px 13px; height: 16px; width: 143px;}
+.antetitulo_juicio-proces-directo a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/juicio-proces-directo2.svg);background-size: 282px 13px; height: 16px; width: 276px; display: inline-block; position: relative;}
+.antetitulo_juicio-proces-directo-sin-video a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/juicio-proces-directo3.svg);background-size: 240px 13px; height: 16px; width: 234px; display: inline-block; position: relative;}
+.antetitulo_juicio-proces-directo a:after,
+.antetitulo_juicio-proces-directo-sin-video a:after{ content: ''; width: 0.250rem; height: 0.250rem; border-radius: 0.125rem; background-color: #FF004C; position: absolute; top: 4px; right: -5px; z-index: 2; -webkit-animation: Directo 1s infinite; -moz-animation: Directo 1s infinite; 
+-o-animation: Directo 1s infinite; animation: Directo 1s infinite;}
+
+@media (min-width: 768px) {
+	.salida_articulo .antetitulo_aniversario_constitucion span,
+	.salida_articulo .antetitulo_aniversario_constitucion a  {width: 230px;margin: 13px 0 0 20px;}
+}
+.salida_articulo .antetitulo_aniversario_constitucion {background-color: #00afea;  margin-bottom: 15px; height:48px; position:relative;}
+.salida_articulo .antetitulo_aniversario_constitucion:before{position: absolute;top: 0;right: 0;content: "";z-index: 1;background: url(../../../estaticos/2018/09/gonzalez-aznar/img/aznar_mov.png) no-repeat;background-size: contain;width: 58px;height: 48px;}
+.salida_articulo .antetitulo_aniversario_constitucion:after{position: absolute;top: 0;right: 45px;content: "";z-index: 1;background: url(../../../estaticos/2018/09/gonzalez-aznar/img/gonzalez_mov.png) no-repeat;background-size: contain;width: 87px;height: 48px;}
+/* Feria del libro de guadalajara - MADRID */
+.antetitulo_fil-madrid a{background-image: url(../../../iconos/v2.x/v2.0/cintillos/fil-madrid.png);background-size: 139px 16px; height: 16px;width: 140px;}
+/*18 propósitos para el 18 con coca cola*/
+.antetitulo_18p18 a{background-color: #f90016;height: 21px;width: 100%;position: relative;}
+.antetitulo_18p18 a::before{content: "";position: absolute;background-image: url('../../../iconos/v2.x/v2.0/cintillos/portada-cintillo-ht.png');top: 0px;left: 2px;height: 100%;width: 50px;background-size: contain;background-position: center;}
+.antetitulo_18p18 a::after{content: "";position: absolute;background-image: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/portada-cintillo-logo.svg');top: 0px;right: 2px;height: 100%;width: 50px;background-size: contain;background-position: center;}
+/* Especial RSC */
+.antetitulo_rsc { background-color: #e9d586; height: 21px; padding: 0; margin-bottom: 0;}
+.antetitulo_rsc .enlace {text-indent: -9999px; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/rsc.svg); background-position: center center; background-size: 33px auto; padding-left: 0;}
+/* Especial RSC Nuevo */
+.antetitulo_rscNuevo { background-color: #D2EBEC; height: 21px; padding: 0; margin-bottom: 0;}
+.antetitulo_rscNuevo::before { content: 'CONTENIDO PATROCINADO'; float: right; color: #000000; margin: 4px 10px 0 0; font-size: 9px; }
+/* el viajero trotamundos */
+/* en portada */
+.antetitulo_trotamundos {position: relative; z-index: 10; margin-bottom: 0.938rem;}
+.antetitulo_trotamundos a,.antetitulo_trotamundos span {display: inline-block; text-indent: 0; background-color: #678691; color: #fff; padding: .375rem 0.625rem .375rem 1.750rem;}
+.antetitulo_trotamundos a:before,.antetitulo_trotamundos span:before {content: ''; position: absolute; top: 0.125rem; left: 0.313rem; width: 1.188rem; height: 2.188rem; background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elviajero-trotamundos.svg); background-repeat: no-repeat;}
+.antetitulo_trotamundos + figure {margin-top: -2.688rem;}
+.bloque_tematico .articulos_cuerpo .articulo:only-of-type .antetitulo_trotamundos {float: left; margin-right: 1.375rem; width: calc(50% - .688rem);}
+.bloque_tematico .articulos_cuerpo .articulo:only-of-type .antetitulo_trotamundos + h2 {clear: left;}
+.bloque--publi .articulos_cuerpo .articulo:only-of-type .antetitulo_trotamundos {float: none;}
+@media (min-width: 600px) {
+	[class^="salida_"]:not(.salida_articulo) .articulos_cierre .articulo:nth-child(1):nth-last-child(4) .antetitulo_trotamundos + figure,
+	[class^="salida_"]:not(.salida_articulo) .articulos_cierre .articulo:nth-child(1):nth-last-child(4) ~ .articulo .antetitulo_trotamundos + figure {margin-top: -2.688rem;}
+}
+@media (max-width: 599px) {
+	.bloque_tematico .articulos_cuerpo .articulo:only-of-type .antetitulo_trotamundos {float: none;}
+	.bloque_tematico .articulos_cierre .articulo__interior .antetitulo_trotamundos {float: left; margin-right: .688rem; width: calc(45% - 0.688rem)!important; margin-bottom: 0;}
+	.bloque_tematico .articulos_cierre .articulo__interior .antetitulo_trotamundos + figure {clear: left; margin-top: -1.750rem;}
+	.bloque_tematico .articulos_cierre .articulo__interior .antetitulo_trotamundos + h2 {clear: left;}
+	.bloque_tematico .articulos_cuerpo .articulo__interior .antetitulo_trotamundos {display: inline-block;}
+	.bloque_tematico .articulos_cuerpo .articulo__interior .antetitulo_trotamundos + figure.foto_w360 {margin-top: 0;}
+	.bloque_tematico .articulos_cuerpo .articulo__interior .antetitulo_trotamundos + h2 {clear: left;}
+}
+/* en portada, bloque revista */
+.bloque_revista .antetitulo_trotamundos {position: static; margin: -0.938rem 0 0.625rem; width: 4.063rem;}
+.bloque_revista .antetitulo_trotamundos a,.bloque_revista .antetitulo_trotamundos span {background-color: transparent; background-position: left center; width: 4.063rem; text-align: left; padding: 0; color: #a0c8d7;}
+.bloque_revista .antetitulo_trotamundos a:before,.bloque_revista .antetitulo_trotamundos span:before {top: 0.688rem; left: 0.500rem;}
+.bloque_revista .articulo-texto--posicion_2 .antetitulo_trotamundos,.bloque_revista .articulo-texto--posicion_3 .antetitulo_trotamundos,.bloque_revista .articulo-texto--posicion_4 .antetitulo_trotamundos,.bloque_revista .articulo-texto--posicion_5 .antetitulo_trotamundos {width: auto;}
+.bloque_revista .articulo-texto--posicion_3 .antetitulo_trotamundos,.bloque_revista .articulo-texto--posicion_4 .antetitulo_trotamundos {text-align: right; right: 7.438rem; left: auto;}
+.bloque_revista .articulo-texto--posicion_2 .antetitulo_trotamundos a:before,.bloque_revista .articulo-texto--posicion_5 .antetitulo_trotamundos a:before,.bloque_revista .articulo-texto--posicion_2 .antetitulo_trotamundos span:before,
+.bloque_revista .articulo-texto--posicion_5 .antetitulo_trotamundos span:before {top: .375rem; left: calc(50% - 4.188rem);}
+@media (max-width: 666px) {
+	.bloque_revista .antetitulo_trotamundos a:before {left: 0.500rem!important;}
+}
+@media (max-width: 599px) {
+	.bloque_revista .antetitulo_trotamundos {margin-top: -2.438rem;}
+	.bloque_revista .antetitulo_trotamundos a,
+	.bloque_revista .antetitulo_trotamundos span {background-color: #678691; color: #fff; padding: .375rem 0.625em .375rem 1.750rem; width: auto;}
+	.bloque_revista .antetitulo_trotamundos a:before,
+	.bloque_revista .antetitulo_trotamundos span:before {left: 0.313rem!important; top: 0.125rem!important;}
+}
+/* en noticia */
+.salida_articulo .antetitulo_trotamundos {position: static; width: auto; margin-bottom: 0.750rem;}
+.salida_articulo .antetitulo_trotamundos a,.salida_articulo .antetitulo_trotamundos span {background-color: transparent; color: #678691; padding: 0 0 0 1.750rem;}
+.salida_articulo .antetitulo_trotamundos a:before,.salida_articulo .antetitulo_trotamundos span:before {top: -0.688rem; left: 0;}
+/* Ajustes noticia */
+.salida_articulo .antetitulo_ultima-hora a, .salida_articulo .antetitulo_ultima-hora span{line-height:2.02em;font-size:0.813em;width:15.815em;}
+@media(min-width:600px){
+	.bloque_a .antetitulo_elecciones_generales_2016 a{width: calc(50% - 0.688rem);}
+	.bloque_cierre .antetitulo_elecciones_generales_2016 a{background-image:none;padding-right:0;}
+}
+.antetitulo_talentodigital{background: #5CAAD8 url(../../../elpais/iconos/v2.x/v2.1/talento_digital/volkswagen_mini.png) calc(100% - 3px) center no-repeat;background-size: auto 18px;margin: 0;line-height: 1.95;}
+.antetitulo_talentodigital a {text-indent: -9999px; background-image: url(../../../elpais/iconos/v2.x/v2.1/talento_digital/talentos_digitales.png); background-position: 6px center;background-size: auto 15px;display:block;min-width: 110px;}
+/* ANTETITULO PORTADAPEL */
+.antetitulo_portadapapel:before{position: absolute;content: '';display: block;border: 1px solid #000;height: 100%;width: 100%;top: 0;left:0;pointer-events: none;}
+.antetitulo_portadapapel, .antetitulo_portadapapel ~ *{margin-left:.688rem;margin-right:.688rem;position: relative; }
+.antetitulo_portadapapel{position: static;}
+.antetitulo_prodigitales a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/prodigitales.svg);background-size: 85px 16px; height: 16px;width: 85px;}
+/*.antetitulo LOTERIA NAVIDAD 2016 */
+.antetitulo_loterianavidad a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/loteria_navidad2016.svg);background-size: 118px 16px; height: 18px;width: 132px; background-color: #0084c0; background-position-x: center; }
+/*antetitulo Cinco Días */
+.antetitulo_cinco-dias a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/logos/cinco-dias.svg);background-size:contain; height: 13px;width: 90px;margin-bottom: .8em;}
+/*antetitulo Retina */
+.antetitulo_retina-new a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/logos/retina.svg);background-size:contain; height: 13px;width: 85px; margin-bottom: .8em;}
+/* Planeta Futuro: Estado del Planeta*/
+.antetitulo_estadodelplaneta{background: url(../../../iconos/v2.x/v2.0/cintillos/pf_coleccion-el-estado_bg.jpg) 0 0 no-repeat;background-size:cover;margin-bottom: 0;}
+.antetitulo_estadodelplaneta a,
+.antetitulo_estadodelplaneta span{background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/pf_coleccion-el-estado.svg) 6px 5px no-repeat; line-height: 25px;display: block;line-height: 20px;}
+@media(min-width: 768px){
+.articulos_cierre .antetitulo_estadodelplaneta a,
+.articulos_cierre .antetitulo_estadodelplaneta span{background-size: calc(100% - 10px) auto;background-position: 5px center;}
+}
+/* elecciones-mexico-2018 */
+.antetitulo_elecciones-mexico-2018{margin: 0;line-height: 1.95;}
+.antetitulo_elecciones-mexico-2018 a {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/elecciones-mexico-2018.svg) left center no-repeat; background-size: 160px 16px; width: 160px;}
+/* El País colecciones */
+.antetitulo_pais-colecciones {margin: 0;line-height: 2.2;}
+.antetitulo_pais-colecciones a {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/pais-colecciones.svg) left center no-repeat; background-size: 140px 24px; width: 140px; height: 24px;}
+/* elecciones-brasil-2018 */
+.antetitulo_elecciones-brasil-2018{margin: 0; line-height: 1.95;}
+.antetitulo_elecciones-brasil-2018 a {text-indent: -9999px; background: url(https://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/cintillo-eleicoes-brasil.svg) left center no-repeat; background-size: 125px 20px; width: 125px;}
+/*antetitulo Día Mundial de las Ciudades*/
+.antetitulo_dia_ciudades{background-image: url(http://ep01.epimg.net/estaticos/2018/08/dia-ciudades/img/suez-white.svg); background-size: 61px; background-color: #0C8Ad5; background-repeat: no-repeat; background-position: right 7px center;}
+.antetitulo_dia_ciudades a{background: url(http://ep01.epimg.net/estaticos/2018/08/dia-ciudades/img/logo_horizontal_ciudades.svg) 3px center no-repeat; background-size:auto 18px; text-indent: -9999px; width: -webkit-fill-available;}
+@media(min-width: 1000px){
+    .articulos_cierre .antetitulo_dia_ciudades{ background-size:auto 11px;}
+    .articulos_cierre .antetitulo_dia_ciudades a{ background-size:auto 11px; }
+}
+
+/* antetitulo Día Mundial de la Diabetes */
+.antetitulo_dia_diabetes{margin: 0; line-height: 1.95;}
+.antetitulo_dia_diabetes a {text-indent: -9999px; background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/dia-mundial-diabetes-white-mobile.svg) 10px center no-repeat;background-color: #0087A8; background-size: 125px 20px; width: 100%;}
+.antetitulo_icondesign a{background: url('http://ep01.epimg.net/elpais/iconos/v2.x/v2.1/icon/icondesign.svg') 0 center no-repeat; text-indent: -9999px; background-size: auto 14px;}  
+.antetitulo_materia a{background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/logos/materia.svg') 0 center no-repeat; text-indent: -9999px; background-size: auto 17px;}  
+.antetitulo_smartlife a{background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/smartlife.svg') 0 center no-repeat; text-indent: -9999px; background-size: auto 10px;}  
+.antetitulo_planetafuturo a{background: url('http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/planetafuturo-texto.svg') 0 center no-repeat; text-indent: -9999px; background-size: auto 12px;}  
+.antetitulo_ideas a{background:  url(http://ep01.epimg.net/estaticos/2015/05/ideas/img/agrupador-nombre.svg) 0 center no-repeat; text-indent: -9999px;background-size: auto 14px;}
+
+
+/* día mundial del agua*/
+.antetitulo_diaagua{background: #f40009 url(../../../especiales/2019/dia-mundial-agua/assets/logos-cintillos/coca-cola.png) calc(100% - 3px) center no-repeat;background-size: auto 17px;margin: 0;line-height: 1.95;}
+.antetitulo_diaagua a {text-indent: -9999px; background-image: url(http://ep01.epimg.net/especiales/2019/dia-mundial-agua/assets/logos-cintillos/dia-mundial-agua.svg); background-position: 6px center;background-size: auto 15px;display:block;min-width: 160px;}
+
+/* El fin del efectivo*/
+.antetitulo_fin-efectivo{background: #2C385D url(http://ep01.epimg.net/estaticos/2019/11/no-money-dos/img/BBVA.svg) calc(100% - 3px) center no-repeat;
+	background-size: auto 17px;margin: 0;line-height: 1.95; position:relative;}
+.antetitulo_fin-efectivo a {text-indent: -9999px; background-image: url(http://ep01.epimg.net/estaticos/2019/11/no-money-dos/img/fin-efectivo-cintillo.svg); background-position: 6px center; background-size: 125px; display:block; min-width: 160px;}
+.antetitulo_fin-efectivo:before {
+    color: white;
+	z-index: 1;
+	content: 'OFRECIDO POR';
+	font-weight: normal;
+	font-size: 6px;
+	position: absolute;
+	right: 67px;
+	top: 0.2rem;
+}
+/* elpais_brasil_fem */
+.antetitulo_elpais_brasil_fem{margin: 0; line-height: 1.95; background-image: linear-gradient(180deg, #B445CF 0%, #384CA5 100%);}
+.antetitulo_elpais_brasil_fem a {text-indent: -9999px; background: url(http://brasil.elpais.com/especiais/2019/05/elpais-fem/img/e_fem.svg?1) left center no-repeat; background-size: 125px 20px; width: 125px;}
+
+.antetitulo_foro_educacion a{background-image: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/foro-de-educacion.svg);}
+
+
+/* anettitulo tribuna */
+.antetiltulo_tribuna,
+.antetiltulo_tribuna.noticia-cerrada,
+.antetiltulo_tribuna.noticia-cerrada-cintillo {
+    position: static; 
+    margin-left:10px;
+    padding: 6px 6px 0 0;
+}
+.antetiltulo_tribuna:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF8ED;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    content: "";
+}
+
+.antetiltulo_tribuna:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(http://ep01.epimg.net/iconos/v2.x/v2.2/trama.svg);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    content: "";
+}
+
+@media (max-width: 599px) {
+    .antetiltulo_tribuna:after,
+    .antetiltulo_tribuna:before { top: 4px; height: 91%; }
+}
+
+.antetiltulo_tribuna ~* { position:relative; margin-left: 10px; }
+.bloque_tematico_opinion .articulos_cuerpo .articulo__interior .antetiltulo_tribuna ~ figure { display: block; margin-left: 10px!important; }
+
+.antetiltulo_tribuna ~ h2 { 
+    margin-left: 10px;
+    font-weight: bold!important; 
+    z-index: 2;
+    position: relative;    
+    padding-right: 6px;
+}
+.antetiltulo_tribuna ~ .articulo-metadatos {  
+    margin-left: 10px; 
+    padding-bottom: 6px;
+}
+
+.antetiltulo_tribuna a,
+.antetiltulo_tribuna .sin_enlace {
+    position: relative;
+    z-index: 1;
+}
+
+/* Cintillo BAJO REGISTRO */
+.noticia-cerrada {
+    position: relative;
+}
+
+.noticia-cerrada a,
+.noticia-cerrada span,
+.noticia-cerrada-cintillo a,
+.noticia-cerrada-cintillo span  {
+    font-size: 10px;
+    font-weight: 700;
+    color:#ED9D19;
+    position: relative;
+    z-index: 1;
+}
+
+.noticia-cerrada a:before,
+.noticia-cerrada span:before {
+    content:"ARTÍCULO BAJO REGISTRO ";
+    font-size: 10px;
+    font-weight: 700;
+    color:#ED9D19;
+    padding-left: 10px;
+    background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/articulo_registro.svg) no-repeat left 1px;
+}
+
+
+.articulo-antetitulo.noticia-cerrada-cintillo a:before,
+.articulo-antetitulo.noticia-cerrada-cintillo span:before {
+    content:"ARTÍCULO BAJO REGISTRO | ";
+    font-size: 10px;
+    font-weight: 700;
+    color:#ED9D19;
+    padding-left: 10px;
+    background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/articulo_registro.svg) no-repeat left 1px;
+}
+
+/* cintillo noticias bajo registro IN ENGLISH */
+
+html:lang(en) .noticia-cerrada a:before,
+html:lang(en) .noticia-cerrada span:before {
+    content:"REGISTER TO READ ";
+    font-size: 10px;
+    font-weight: 700;
+    color:#ED9D19;
+    padding-left: 10px;
+    background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/articulo_registro.svg) no-repeat left 1px;
+}
+
+html:lang(en) .articulo-antetitulo.noticia-cerrada-cintillo a:before,
+html:lang(en) .articulo-antetitulo.noticia-cerrada-cintillo span:before {
+    content:"REGISTER TO READ | ";
+    font-size: 10px;
+    font-weight: 700;
+    color:#ED9D19;
+    padding-left: 10px;
+    background: url(http://ep01.epimg.net/iconos/v2.x/v2.0/cintillos/articulo_registro.svg) no-repeat left 1px;
+}
+
+
+@keyframes randomBG {0% {background-color: #fbef6c;}12.5% {background-color: #d9fb6c;}25% {background-color: #fbc56c;}37.5% {background-color: #fb856c;}50% {background-color: #fb6ca8;}62.5% {background-color: #d26cfb;}75% {background-color: #9b6cfb;}87.5% {background-color: #d9e9eb;}}
+.antetitulo_revistav a{background-image: url(http://ep01.epimg.net/estaticos/2017/06/revista-v/img/agrupador-nombre_v2.svg); background-position: 3px center; background-repeat: no-repeat; text-indent: -9999px; background-size: auto 10px; animation: randomBG 30s infinite;}
